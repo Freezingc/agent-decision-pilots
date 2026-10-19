@@ -1,0 +1,50 @@
+{
+  "dev": {
+    "branch_patterns_00_10_01_11": {
+      "1111": 75,
+      "0000": 19,
+      "0101": 2
+    },
+    "gate_degradations_vs_full": 0,
+    "gate_improvements_vs_full": 0,
+    "initial_correct_others_all_wrong": 0,
+    "all_final_branches_same_source": 83,
+    "public_pass_but_hidden_fail": 11,
+    "public_pass_instances": 86
+  },
+  "test": {
+    "branch_patterns_00_10_01_11": {
+      "0000": 21,
+      "1111": 72,
+      "1100": 2,
+      "0111": 1
+    },
+    "gate_degradations_vs_full": 0,
+    "gate_improvements_vs_full": 2,
+    "initial_correct_others_all_wrong": 0,
+    "all_final_branches_same_source": 86,
+    "public_pass_but_hidden_fail": 11,
+    "public_pass_instances": 85,
+    "gate_vs_fixed_dev": {
+      "success_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "tokens_saved_ci95": [
+        254.77005208333335,
+        321.08385416666664
+      ]
+    },
+    "gate_vs_single_skip_gate": {
+      "success_delta_ci95": [
+        0.0,
+        0.052083333333333336
+      ],
+      "tokens_saved_ci95": [
+        225.85338541666667,
+        288.18932291666664
+      ]
+    }
+  },
+  "interpretation": "Post-result diagnostics; no policy refitting. Bootstrap zero width may reflect constant observed differences; it is not an equivalence or safety guarantee."
+}

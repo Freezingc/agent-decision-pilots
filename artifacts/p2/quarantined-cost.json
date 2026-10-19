@@ -1,0 +1,8 @@
+{
+  "status": "quarantined_adapter_precheck_only",
+  "n": 104,
+  "input_tokens": 24516,
+  "output_tokens": 2536,
+  "responses_sha256": "6ecfd15861c56504f5d4a5f429113f7bf29242e60ede24eaf024c0730fbcd771",
+  "not_analyzed_for_performance": true
+}

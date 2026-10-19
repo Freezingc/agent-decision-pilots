@@ -1,0 +1,77 @@
+test_accept_has_explicit_false_completion_boundary (test_recovery_robust.RobustRecoveryTests.test_accept_has_explicit_false_completion_boundary) ... FAIL
+test_bayes_conditions_each_model_and_model_weights_on_history (test_recovery_robust.RobustRecoveryTests.test_bayes_conditions_each_model_and_model_weights_on_history) ... FAIL
+test_fixed_rules_include_direct_accept_and_early_abstention (test_recovery_robust.RobustRecoveryTests.test_fixed_rules_include_direct_accept_and_early_abstention) ... FAIL
+test_minimax_terminal_value_matches_manual_worst_case (test_recovery_robust.RobustRecoveryTests.test_minimax_terminal_value_matches_manual_worst_case) ... FAIL
+test_nominal_and_long_models_update_on_same_visible_history (test_recovery_robust.RobustRecoveryTests.test_nominal_and_long_models_update_on_same_visible_history) ... FAIL
+test_retry_is_once_even_after_posterior_is_safe (test_recovery_robust.RobustRecoveryTests.test_retry_is_once_even_after_posterior_is_safe) ... FAIL
+test_simulation_preserves_v1_counterfactual_randomization (test_recovery_robust.RobustRecoveryTests.test_simulation_preserves_v1_counterfactual_randomization) ... FAIL
+test_worst_case_gate_never_averages_away_bad_model (test_recovery_robust.RobustRecoveryTests.test_worst_case_gate_never_averages_away_bad_model) ... FAIL
+
+======================================================================
+FAIL: test_accept_has_explicit_false_completion_boundary (test_recovery_robust.RobustRecoveryTests.test_accept_has_explicit_false_completion_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_bayes_conditions_each_model_and_model_weights_on_history (test_recovery_robust.RobustRecoveryTests.test_bayes_conditions_each_model_and_model_weights_on_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_fixed_rules_include_direct_accept_and_early_abstention (test_recovery_robust.RobustRecoveryTests.test_fixed_rules_include_direct_accept_and_early_abstention)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_minimax_terminal_value_matches_manual_worst_case (test_recovery_robust.RobustRecoveryTests.test_minimax_terminal_value_matches_manual_worst_case)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_nominal_and_long_models_update_on_same_visible_history (test_recovery_robust.RobustRecoveryTests.test_nominal_and_long_models_update_on_same_visible_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_retry_is_once_even_after_posterior_is_safe (test_recovery_robust.RobustRecoveryTests.test_retry_is_once_even_after_posterior_is_safe)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_simulation_preserves_v1_counterfactual_randomization (test_recovery_robust.RobustRecoveryTests.test_simulation_preserves_v1_counterfactual_randomization)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+======================================================================
+FAIL: test_worst_case_gate_never_averages_away_bad_model (test_recovery_robust.RobustRecoveryTests.test_worst_case_gate_never_averages_away_bad_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 11, in setUp
+    self.assertIsNotNone(q, "robust recovery not implemented")
+AssertionError: unexpectedly None : robust recovery not implemented
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=8)

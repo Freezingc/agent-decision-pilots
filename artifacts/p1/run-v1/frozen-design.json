@@ -1,0 +1,1009 @@
+{
+  "all_conditions": [
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_low-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_low-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_medium-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_medium-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_high-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "name": "low-fault_high-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.1,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.05,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_low-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_low-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_medium-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_medium-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_high-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "name": "medium-fault_high-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.35,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.2,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_low-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_low-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 0.1,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_medium-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_medium-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 1.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": true
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_high-check_matched",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": false
+    },
+    {
+      "actual": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.1
+          ],
+          [
+            3,
+            0.2
+          ],
+          [
+            6,
+            0.7
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "name": "high-fault_high-check_delay-shift",
+      "nominal": {
+        "abandon_loss": 8.0,
+        "check_cost": 4.0,
+        "delay": [
+          [
+            0,
+            0.25
+          ],
+          [
+            1,
+            0.25
+          ],
+          [
+            3,
+            0.5
+          ]
+        ],
+        "duplicate_loss": 80.0,
+        "missing_loss": 40.0,
+        "not_executed": 0.65,
+        "retry_cost": 1.0,
+        "retry_success": 0.95,
+        "stale_read": 0.4,
+        "time_cost": 0.2
+      },
+      "shift": true
+    }
+  ],
+  "dev_n_per_matched_condition": 200,
+  "dev_seed_formula": "seed*1000000+i",
+  "evidence": "synthetic enumerable POMDP; not LLM evidence",
+  "horizon": 8,
+  "mismatch": "planner and selected rule retain matched dev parameters; actual delays shift to 0/3/6",
+  "objective": "minimize cost+40*false_completion+80*duplicate+8*abstention",
+  "planner_lookahead": 4,
+  "rules_grid": {
+    "extra_trivial_rules": [
+      "immediate_accept",
+      "immediate_abandon"
+    ],
+    "negatives": [
+      1,
+      2,
+      3
+    ],
+    "retries": [
+      1,
+      2
+    ],
+    "wait": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "schema": "p1-v1",
+  "seed": 20261019,
+  "test_blocks": 3,
+  "test_n_per_condition": 600,
+  "test_seed_formula": "seed*1000000+100000+block*10000+i"
+}

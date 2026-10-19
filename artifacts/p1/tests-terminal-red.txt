@@ -1,0 +1,27 @@
+test_bayes_negative_check_has_hand_computed_posterior (test_recovery.RecoveryModelTests.test_bayes_negative_check_has_hand_computed_posterior) ... ok
+test_delay_advances_before_check_and_stale_read_is_false_negative_only (test_recovery.RecoveryModelTests.test_delay_advances_before_check_and_stale_read_is_false_negative_only) ... ok
+test_deployable_rule_receives_observations_without_hidden_state (test_recovery.RecoveryModelTests.test_deployable_rule_receives_observations_without_hidden_state) ... ok
+test_enumerated_action_probabilities_conserve_mass (test_recovery.RecoveryModelTests.test_enumerated_action_probabilities_conserve_mass) ... ok
+test_exact_policy_tree_matches_manual_one_step_diagnosis (test_recovery.RecoveryModelTests.test_exact_policy_tree_matches_manual_one_step_diagnosis) ... ok
+test_oracle_expected_value_is_lower_bound_on_loss (test_recovery.RecoveryModelTests.test_oracle_expected_value_is_lower_bound_on_loss) ... ok
+test_paired_seed_replays_identical_trajectory (test_recovery.RecoveryModelTests.test_paired_seed_replays_identical_trajectory) ... ok
+test_positive_check_does_not_reveal_execution_multiplicity (test_recovery.RecoveryModelTests.test_positive_check_does_not_reveal_execution_multiplicity) ... ok
+test_retry_of_executed_operation_causes_irreversible_duplicate (test_recovery.RecoveryModelTests.test_retry_of_executed_operation_causes_irreversible_duplicate) ... ok
+test_strong_rule_grid_can_accept_or_abstain_without_diagnostic_cost (test_recovery.RecoveryModelTests.test_strong_rule_grid_can_accept_or_abstain_without_diagnostic_cost) ... ERROR
+test_terminal_scoring_distinguishes_missing_duplicate_and_abstention (test_recovery.RecoveryModelTests.test_terminal_scoring_distinguishes_missing_duplicate_and_abstention) ... ok
+test_wait_and_check_cannot_execute_operation (test_recovery.RecoveryModelTests.test_wait_and_check_cannot_execute_operation) ... ok
+test_zero_horizon_planner_uses_belief_not_hidden_state (test_recovery.RecoveryModelTests.test_zero_horizon_planner_uses_belief_not_hidden_state) ... ok
+
+======================================================================
+ERROR: test_strong_rule_grid_can_accept_or_abstain_without_diagnostic_cost (test_recovery.RecoveryModelTests.test_strong_rule_grid_can_accept_or_abstain_without_diagnostic_cost)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 81, in test_strong_rule_grid_can_accept_or_abstain_without_diagnostic_cost
+    rule = r.Rule(initial_terminal=terminal)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'initial_terminal'
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+FAILED (errors=1)

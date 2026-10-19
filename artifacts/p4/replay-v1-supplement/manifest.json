@@ -1,0 +1,31 @@
+{
+  "files": {
+    "cases.json": {
+      "bytes": 220194,
+      "sha256": "2913b3a36194c2e8d9e4bed9324540cf4ef40de3f58fb34b7cf81aab2e283202"
+    },
+    "design.json": {
+      "bytes": 20510,
+      "sha256": "d1518013f1b495c0842a3d41cadec2c17c0fe06ea6e7510c14fa9b7bbd903903"
+    },
+    "dev_grid_scores.json": {
+      "bytes": 842001,
+      "sha256": "a364ab4095bfd05f28b26398196515269583f48089864245fc8f5351a1f7345c"
+    },
+    "episodes.jsonl.gz": {
+      "bytes": 2216804,
+      "sha256": "a478e8ed151d1de05e95b6e17417584568b98d3386699b70c9621c12f2701b28"
+    },
+    "summary.json": {
+      "bytes": 659193,
+      "sha256": "e4192c6d6118d9fcd8db033c11ec74b3c5d7e2e370c3539a76830a3c18c60603"
+    },
+    "transfer_dev_selection.json": {
+      "bytes": 17413,
+      "sha256": "47b3bde9cb1c872ad343cb61e3e476e9a3ae8dc3d7a80d907d81da0b1a007d95"
+    }
+  },
+  "seconds": 20.926382043398917,
+  "source_sha256": "d18925ea166c3b684fdefb7f6acfdd309fc90d33362d3544e51e174ef8f03168",
+  "status": "completed"
+}

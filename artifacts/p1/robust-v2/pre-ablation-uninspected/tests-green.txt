@@ -1,0 +1,13 @@
+test_accept_has_explicit_false_completion_boundary (test_recovery_robust.RobustRecoveryTests.test_accept_has_explicit_false_completion_boundary) ... ok
+test_bayes_conditions_each_model_and_model_weights_on_history (test_recovery_robust.RobustRecoveryTests.test_bayes_conditions_each_model_and_model_weights_on_history) ... ok
+test_fixed_rules_include_direct_accept_and_early_abstention (test_recovery_robust.RobustRecoveryTests.test_fixed_rules_include_direct_accept_and_early_abstention) ... ok
+test_minimax_terminal_value_matches_manual_worst_case (test_recovery_robust.RobustRecoveryTests.test_minimax_terminal_value_matches_manual_worst_case) ... ok
+test_nominal_and_long_models_update_on_same_visible_history (test_recovery_robust.RobustRecoveryTests.test_nominal_and_long_models_update_on_same_visible_history) ... ok
+test_retry_is_once_even_after_posterior_is_safe (test_recovery_robust.RobustRecoveryTests.test_retry_is_once_even_after_posterior_is_safe) ... ok
+test_simulation_preserves_v1_counterfactual_randomization (test_recovery_robust.RobustRecoveryTests.test_simulation_preserves_v1_counterfactual_randomization) ... ok
+test_worst_case_gate_never_averages_away_bad_model (test_recovery_robust.RobustRecoveryTests.test_worst_case_gate_never_averages_away_bad_model) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

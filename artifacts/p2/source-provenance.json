@@ -1,0 +1,21 @@
+{
+  "retrieved_at_utc": "2026-10-19T15:35:05.876670+00:00",
+  "source_checks": [
+    {
+      "query": "https://api.github.com/repos/TaoZhen1110/MemConflict",
+      "repository": "TaoZhen1110/MemConflict",
+      "license": null,
+      "default_branch": "main"
+    },
+    {
+      "query": "https://api.github.com/repos/TaoZhen1110/MemConflict/git/trees/ec51d5d36e87f7665d1337f3a88cbde95fc2a964?recursive=1",
+      "tree_sha": "ec51d5d36e87f7665d1337f3a88cbde95fc2a964",
+      "truncated": false,
+      "license_paths": []
+    }
+  ],
+  "source_commit": "ec51d5d36e87f7665d1337f3a88cbde95fc2a964",
+  "source_file": "Data/Step4_4.jsonl",
+  "source_sha256": "8ef9ec8589eccb86f63ab3a819a9180217405351a8d5846866721ea74babe092",
+  "license_interpretation": "No license declared in inspected repository metadata/tree. No redistribution grant inferred. Source/dialogue/request/response text retained only in ignored raw-downloads paths."
+}

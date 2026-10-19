@@ -1,0 +1,22 @@
+{
+  "verification.json": {
+    "bytes": 1452,
+    "sha256": "c4c92935c826f4430ddd0d396652b3089e09e3862074ac4ef5e1c976e70e62c0"
+  },
+  "decision.json": {
+    "bytes": 868,
+    "sha256": "3c719682d65a9c4725580aaeba96d4886538e4cff6fbdc5754a66c57dc7da6ee"
+  },
+  "audit.py": {
+    "bytes": 6074,
+    "sha256": "26d25c22bbc7d91f1e15a59d5f6145f5aa7f5873cb4e0b21a212840f008ec8b5"
+  },
+  "audit-output.json": {
+    "bytes": 502,
+    "sha256": "353f517dd12fdfde5d0b41c2a5cb401814e5780cff6ea4a8e2e9ea83319cf8d7"
+  },
+  "tests-combined-green.txt": {
+    "bytes": 3623,
+    "sha256": "d10db89b73934d428ad61ead846f50ef37d334e052ba8c2f8c0ed123351df232"
+  }
+}

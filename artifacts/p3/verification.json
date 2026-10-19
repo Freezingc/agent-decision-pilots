@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "scope": "independent accounting, not independent scientific replication",
+  "tasks": 96,
+  "dev_tasks": 48,
+  "test_tasks": 48,
+  "instances": 192,
+  "receipts": 768,
+  "requests_hash_checked": 768,
+  "unique_official_evaluations": 210,
+  "branches_checked": 768,
+  "token_paths_verified": true,
+  "public_features_verified": true,
+  "labels_verified": true,
+  "table_vs_raw_verified": true,
+  "common_final_review_rng_verified": true
+}

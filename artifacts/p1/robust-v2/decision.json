@@ -1,0 +1,24 @@
+{
+  "schema": "p1-robust-v2",
+  "recommendation": "stop_before_real_agent_expansion",
+  "test_retuning": false,
+  "risk_reduction_within_declared_model_set": true,
+  "novelty_established": false,
+  "key_reasons": [
+    "fixed rule exactly reproduces complex planner in low-fault check-cost1 condition across all three regimes",
+    "posterior threshold and fixed rules explain substantial benefits; no consistent complex-planning advantage",
+    "outside-set lowfault duplicate rate412/600",
+    "mediumfault check-cost1 robust planner abandons all tasks"
+  ],
+  "test_episodes_final": 50400,
+  "dev_episodes_per_run": 364800,
+  "all_compute_including_archived_run": {
+    "dev_episodes": 729600,
+    "test_episodes": 93600,
+    "main_wall_seconds": 56.052506590262055
+  },
+  "source_v1_unchanged": true,
+  "unit_tests": 9,
+  "paid_api_cost": 0,
+  "gpu_used": false
+}

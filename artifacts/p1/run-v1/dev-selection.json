@@ -1,0 +1,7094 @@
+[
+  {
+    "condition": "low-fault_low-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 3,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": ""
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.985,
+        "duplicate": 0.0,
+        "abstention": 0.015,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.01,
+        "cost": 0.9270000000000006,
+        "loss": 1.047000000000001,
+        "checks": 1.91,
+        "retries": 0.11,
+        "waits": 1.11,
+        "counts": {
+          "success": 197,
+          "duplicate": 0,
+          "abstention": 3,
+          "false_completion": 0,
+          "unconfirmed_single": 2
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.525,
+          "duplicate": 0.465,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.2600000000000044,
+          "loss": 38.54000000000011,
+          "checks": 1.78,
+          "retries": 0.605,
+          "waits": 0.0,
+          "counts": {
+            "success": 105,
+            "duplicate": 93,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.475,
+          "duplicate": 0.52,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.3320000000000047,
+          "loss": 42.97200000000007,
+          "checks": 1.7,
+          "retries": 0.685,
+          "waits": 0.0,
+          "counts": {
+            "success": 95,
+            "duplicate": 104,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.545,
+          "duplicate": 0.45,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.3800000000000003,
+          "loss": 37.4200000000001,
+          "checks": 2.32,
+          "retries": 0.57,
+          "waits": 0.0,
+          "counts": {
+            "success": 109,
+            "duplicate": 90,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.5,
+          "duplicate": 0.5,
+          "abstention": 0.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.441500000000001,
+          "loss": 41.441500000000104,
+          "checks": 2.305,
+          "retries": 0.625,
+          "waits": 0.0,
+          "counts": {
+            "success": 100,
+            "duplicate": 100,
+            "abstention": 0,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.98,
+          "duplicate": 0.01,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 0.8700000000000025,
+          "loss": 1.750000000000002,
+          "checks": 2.42,
+          "retries": 0.12,
+          "waits": 0.0,
+          "counts": {
+            "success": 196,
+            "duplicate": 2,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.8835000000000025,
+          "loss": 2.203500000000002,
+          "checks": 2.405,
+          "retries": 0.135,
+          "waits": 0.0,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.51,
+          "duplicate": 0.485,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.5599999999999972,
+          "loss": 40.399999999999935,
+          "checks": 1.71,
+          "retries": 0.605,
+          "waits": 1.605,
+          "counts": {
+            "success": 102,
+            "duplicate": 97,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.46,
+          "duplicate": 0.535,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 1.6814999999999967,
+          "loss": 44.64149999999995,
+          "checks": 1.695,
+          "retries": 0.695,
+          "waits": 1.695,
+          "counts": {
+            "success": 92,
+            "duplicate": 107,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 0.9165000000000009,
+          "loss": 2.1965000000000043,
+          "checks": 1.805,
+          "retries": 0.125,
+          "waits": 1.125,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.97,
+          "duplicate": 0.02,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.930000000000001,
+          "loss": 2.6500000000000035,
+          "checks": 1.79,
+          "retries": 0.14,
+          "waits": 1.125,
+          "counts": {
+            "success": 194,
+            "duplicate": 4,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.9270000000000006,
+          "loss": 1.047000000000001,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.9270000000000006,
+          "loss": 1.047000000000001,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.955,
+          "duplicate": 0.035,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 0.9814999999999975,
+          "loss": 3.9015000000000066,
+          "checks": 1.165,
+          "retries": 0.145,
+          "waits": 2.29,
+          "counts": {
+            "success": 191,
+            "duplicate": 7,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.95,
+          "duplicate": 0.04,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.9994999999999976,
+          "loss": 4.359500000000006,
+          "checks": 1.145,
+          "retries": 0.165,
+          "waits": 2.29,
+          "counts": {
+            "success": 190,
+            "duplicate": 8,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.952499999999998,
+          "loss": 1.0724999999999971,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 0.952499999999998,
+          "loss": 1.0724999999999971,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 0.952499999999998,
+          "loss": 1.8324999999999938,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 0.952499999999998,
+          "loss": 1.8324999999999938,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 1.1610000000000027,
+          "loss": 4.7209999999999885,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 1.1610000000000027,
+          "loss": 4.7209999999999885,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 1.1195000000000033,
+          "loss": 1.9994999999999954,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 1.1195000000000033,
+          "loss": 1.9994999999999954,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 1.1305000000000034,
+          "loss": 2.0104999999999937,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 1.1305000000000034,
+          "loss": 2.0104999999999937,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.11,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 4.4,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 22,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.89,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 178
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "low-fault_medium-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 2,
+        "negatives": 2,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": ""
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.985,
+        "duplicate": 0.0,
+        "abstention": 0.015,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.01,
+        "cost": 2.0820000000000065,
+        "loss": 2.2020000000000075,
+        "checks": 1.255,
+        "retries": 0.11,
+        "waits": 2.22,
+        "counts": {
+          "success": 197,
+          "duplicate": 0,
+          "abstention": 3,
+          "false_completion": 0,
+          "unconfirmed_single": 2
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.525,
+          "duplicate": 0.465,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 2.862000000000005,
+          "loss": 40.142000000000024,
+          "checks": 1.78,
+          "retries": 0.605,
+          "waits": 0.0,
+          "counts": {
+            "success": 105,
+            "duplicate": 93,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.475,
+          "duplicate": 0.52,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 2.8620000000000054,
+          "loss": 44.50200000000009,
+          "checks": 1.7,
+          "retries": 0.685,
+          "waits": 0.0,
+          "counts": {
+            "success": 95,
+            "duplicate": 104,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.545,
+          "duplicate": 0.45,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.4680000000000013,
+          "loss": 39.50800000000001,
+          "checks": 2.32,
+          "retries": 0.57,
+          "waits": 0.0,
+          "counts": {
+            "success": 109,
+            "duplicate": 90,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.5,
+          "duplicate": 0.5,
+          "abstention": 0.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.516,
+          "loss": 43.51600000000002,
+          "checks": 2.305,
+          "retries": 0.625,
+          "waits": 0.0,
+          "counts": {
+            "success": 100,
+            "duplicate": 100,
+            "abstention": 0,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.98,
+          "duplicate": 0.01,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.048000000000006,
+          "loss": 3.928000000000006,
+          "checks": 2.42,
+          "retries": 0.12,
+          "waits": 0.0,
+          "counts": {
+            "success": 196,
+            "duplicate": 2,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 3.048000000000006,
+          "loss": 4.3680000000000065,
+          "checks": 2.405,
+          "retries": 0.135,
+          "waits": 0.0,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.51,
+          "duplicate": 0.485,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.0989999999999953,
+          "loss": 41.938999999999936,
+          "checks": 1.71,
+          "retries": 0.605,
+          "waits": 1.605,
+          "counts": {
+            "success": 102,
+            "duplicate": 97,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.46,
+          "duplicate": 0.535,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 3.2069999999999963,
+          "loss": 46.166999999999945,
+          "checks": 1.695,
+          "retries": 0.695,
+          "waits": 1.695,
+          "counts": {
+            "success": 92,
+            "duplicate": 107,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 2.5410000000000004,
+          "loss": 3.8210000000000015,
+          "checks": 1.805,
+          "retries": 0.125,
+          "waits": 1.125,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.97,
+          "duplicate": 0.02,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.5410000000000004,
+          "loss": 4.261000000000001,
+          "checks": 1.79,
+          "retries": 0.14,
+          "waits": 1.125,
+          "counts": {
+            "success": 194,
+            "duplicate": 4,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.6460000000000026,
+          "loss": 2.766000000000002,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.6460000000000026,
+          "loss": 2.766000000000002,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.955,
+          "duplicate": 0.035,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 2.0300000000000047,
+          "loss": 4.950000000000015,
+          "checks": 1.165,
+          "retries": 0.145,
+          "waits": 2.29,
+          "counts": {
+            "success": 191,
+            "duplicate": 7,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.95,
+          "duplicate": 0.04,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.0300000000000047,
+          "loss": 5.390000000000011,
+          "checks": 1.145,
+          "retries": 0.165,
+          "waits": 2.29,
+          "counts": {
+            "success": 190,
+            "duplicate": 8,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.0820000000000065,
+          "loss": 2.2020000000000075,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.0820000000000065,
+          "loss": 2.2020000000000075,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.0820000000000065,
+          "loss": 2.9620000000000113,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.0820000000000065,
+          "loss": 2.9620000000000113,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.061000000000007,
+          "loss": 5.620999999999984,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.061000000000007,
+          "loss": 5.620999999999984,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.150000000000007,
+          "loss": 3.0300000000000025,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 2.150000000000007,
+          "loss": 3.0300000000000025,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 2.260000000000007,
+          "loss": 3.1399999999999992,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 2.260000000000007,
+          "loss": 3.1399999999999992,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.11,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 4.4,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 22,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.89,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 178
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "low-fault_high-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 1,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": "accept"
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.89,
+        "duplicate": 0.0,
+        "abstention": 0.0,
+        "false_completion": 0.11,
+        "unconfirmed_single": 0.0,
+        "cost": 0.0,
+        "loss": 4.4,
+        "checks": 0.0,
+        "retries": 0.0,
+        "waits": 0.0,
+        "counts": {
+          "success": 178,
+          "duplicate": 0,
+          "abstention": 0,
+          "false_completion": 22,
+          "unconfirmed_single": 0
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.525,
+          "duplicate": 0.465,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 8.202,
+          "loss": 45.48200000000007,
+          "checks": 1.78,
+          "retries": 0.605,
+          "waits": 0.0,
+          "counts": {
+            "success": 105,
+            "duplicate": 93,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.475,
+          "duplicate": 0.52,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 7.9620000000000015,
+          "loss": 49.602000000000125,
+          "checks": 1.7,
+          "retries": 0.685,
+          "waits": 0.0,
+          "counts": {
+            "success": 95,
+            "duplicate": 104,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.545,
+          "duplicate": 0.45,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.427999999999997,
+          "loss": 46.46800000000002,
+          "checks": 2.32,
+          "retries": 0.57,
+          "waits": 0.0,
+          "counts": {
+            "success": 109,
+            "duplicate": 90,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.5,
+          "duplicate": 0.5,
+          "abstention": 0.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.430999999999997,
+          "loss": 50.431,
+          "checks": 2.305,
+          "retries": 0.625,
+          "waits": 0.0,
+          "counts": {
+            "success": 100,
+            "duplicate": 100,
+            "abstention": 0,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.98,
+          "duplicate": 0.01,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.307999999999993,
+          "loss": 11.187999999999986,
+          "checks": 2.42,
+          "retries": 0.12,
+          "waits": 0.0,
+          "counts": {
+            "success": 196,
+            "duplicate": 2,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 10.262999999999995,
+          "loss": 11.582999999999986,
+          "checks": 2.405,
+          "retries": 0.135,
+          "waits": 0.0,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.51,
+          "duplicate": 0.485,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 8.229000000000013,
+          "loss": 47.06899999999993,
+          "checks": 1.71,
+          "retries": 0.605,
+          "waits": 1.605,
+          "counts": {
+            "success": 102,
+            "duplicate": 97,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.46,
+          "duplicate": 0.535,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 8.29200000000001,
+          "loss": 51.251999999999946,
+          "checks": 1.695,
+          "retries": 0.695,
+          "waits": 1.695,
+          "counts": {
+            "success": 92,
+            "duplicate": 107,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.975,
+          "duplicate": 0.015,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 7.956000000000001,
+          "loss": 9.236,
+          "checks": 1.805,
+          "retries": 0.125,
+          "waits": 1.125,
+          "counts": {
+            "success": 195,
+            "duplicate": 3,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.97,
+          "duplicate": 0.02,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 7.911000000000001,
+          "loss": 9.631000000000002,
+          "checks": 1.79,
+          "retries": 0.14,
+          "waits": 1.125,
+          "counts": {
+            "success": 194,
+            "duplicate": 4,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 8.375999999999996,
+          "loss": 8.495999999999995,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 8.375999999999996,
+          "loss": 8.495999999999995,
+          "checks": 1.91,
+          "retries": 0.11,
+          "waits": 1.11,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.955,
+          "duplicate": 0.035,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 5.525000000000008,
+          "loss": 8.444999999999983,
+          "checks": 1.165,
+          "retries": 0.145,
+          "waits": 2.29,
+          "counts": {
+            "success": 191,
+            "duplicate": 7,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.95,
+          "duplicate": 0.04,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 5.465000000000008,
+          "loss": 8.824999999999983,
+          "checks": 1.145,
+          "retries": 0.165,
+          "waits": 2.29,
+          "counts": {
+            "success": 190,
+            "duplicate": 8,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 5.847000000000005,
+          "loss": 5.967000000000001,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.985,
+          "duplicate": 0.0,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 5.847000000000005,
+          "loss": 5.967000000000001,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 197,
+            "duplicate": 0,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.847000000000005,
+          "loss": 6.7269999999999905,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.847000000000005,
+          "loss": 6.7269999999999905,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 2.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.060999999999986,
+          "loss": 8.62099999999997,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.855,
+          "duplicate": 0.03,
+          "abstention": 0.145,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.060999999999986,
+          "loss": 8.62099999999997,
+          "checks": 1.0,
+          "retries": 0.145,
+          "waits": 3.435,
+          "counts": {
+            "success": 171,
+            "duplicate": 6,
+            "abstention": 29,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.584999999999982,
+          "loss": 6.4649999999999785,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.11,
+          "cost": 5.584999999999982,
+          "loss": 6.4649999999999785,
+          "checks": 1.145,
+          "retries": 0.11,
+          "waits": 3.22,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 22
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 6.024999999999981,
+          "loss": 6.904999999999976,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.11,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.1,
+          "cost": 6.024999999999981,
+          "loss": 6.904999999999976,
+          "checks": 1.255,
+          "retries": 0.11,
+          "waits": 3.11,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 22,
+            "false_completion": 0,
+            "unconfirmed_single": 20
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.89,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.11,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 4.4,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 178,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 22,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.89,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 178
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "medium-fault_low-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 3,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": ""
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.915,
+        "duplicate": 0.02,
+        "abstention": 0.065,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.05,
+        "cost": 1.527000000000003,
+        "loss": 3.6470000000000002,
+        "checks": 2.79,
+        "retries": 0.35,
+        "waits": 1.35,
+        "counts": {
+          "success": 183,
+          "duplicate": 4,
+          "abstention": 13,
+          "false_completion": 0,
+          "unconfirmed_single": 10
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.615,
+          "duplicate": 0.37,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.552500000000005,
+          "loss": 31.272500000000083,
+          "checks": 2.275,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 123,
+            "duplicate": 74,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.45,
+          "duplicate": 0.545,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.854000000000007,
+          "loss": 45.49400000000005,
+          "checks": 2.1,
+          "retries": 1.02,
+          "waits": 0.0,
+          "counts": {
+            "success": 90,
+            "duplicate": 109,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.655,
+          "duplicate": 0.33,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.6650000000000025,
+          "loss": 28.18500000000003,
+          "checks": 2.87,
+          "retries": 0.67,
+          "waits": 0.0,
+          "counts": {
+            "success": 131,
+            "duplicate": 66,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.52,
+          "duplicate": 0.48,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.8645000000000036,
+          "loss": 40.34450000000007,
+          "checks": 2.855,
+          "retries": 0.84,
+          "waits": 0.0,
+          "counts": {
+            "success": 104,
+            "duplicate": 96,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.87,
+          "duplicate": 0.09,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 1.4910000000000023,
+          "loss": 9.011000000000001,
+          "checks": 3.29,
+          "retries": 0.42,
+          "waits": 0.0,
+          "counts": {
+            "success": 174,
+            "duplicate": 18,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.13,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 1.5495000000000008,
+          "loss": 12.469500000000012,
+          "checks": 3.225,
+          "retries": 0.485,
+          "waits": 0.0,
+          "counts": {
+            "success": 169,
+            "duplicate": 26,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.57,
+          "duplicate": 0.415,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 1.9044999999999965,
+          "loss": 35.22449999999994,
+          "checks": 2.135,
+          "retries": 0.76,
+          "waits": 1.76,
+          "counts": {
+            "success": 114,
+            "duplicate": 83,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.39,
+          "duplicate": 0.605,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 2.3274999999999944,
+          "loss": 51.36749999999999,
+          "checks": 2.075,
+          "retries": 1.075,
+          "waits": 2.075,
+          "counts": {
+            "success": 78,
+            "duplicate": 121,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.115,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 1.5790000000000026,
+          "loss": 11.098999999999991,
+          "checks": 2.52,
+          "retries": 0.445,
+          "waits": 1.445,
+          "counts": {
+            "success": 169,
+            "duplicate": 23,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.155,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 1.6510000000000022,
+          "loss": 14.691000000000004,
+          "checks": 2.44,
+          "retries": 0.525,
+          "waits": 1.445,
+          "counts": {
+            "success": 164,
+            "duplicate": 31,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 1.527000000000003,
+          "loss": 3.6470000000000002,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 1.527000000000003,
+          "loss": 3.6470000000000002,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.14,
+          "abstention": 0.045,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 1.6399999999999968,
+          "loss": 13.199999999999994,
+          "checks": 1.6,
+          "retries": 0.475,
+          "waits": 2.95,
+          "counts": {
+            "success": 164,
+            "duplicate": 28,
+            "abstention": 9,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.775,
+          "duplicate": 0.2,
+          "abstention": 0.125,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 1.7524999999999984,
+          "loss": 18.752499999999966,
+          "checks": 1.475,
+          "retries": 0.6,
+          "waits": 2.95,
+          "counts": {
+            "success": 155,
+            "duplicate": 40,
+            "abstention": 25,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 1.516999999999997,
+          "loss": 4.077000000000001,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 1.516999999999997,
+          "loss": 4.077000000000001,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 1.4769999999999974,
+          "loss": 4.117000000000003,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 1.4769999999999974,
+          "loss": 4.117000000000003,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 1.7279999999999947,
+          "loss": 14.60800000000002,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 1.7279999999999947,
+          "loss": 14.60800000000002,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 1.582,
+          "loss": 5.101999999999984,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 1.582,
+          "loss": 5.101999999999984,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 1.6089999999999975,
+          "loss": 4.688999999999986,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 1.6089999999999975,
+          "loss": 4.688999999999986,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.33,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 13.2,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 66,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.67,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 134
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "medium-fault_medium-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 2,
+        "negatives": 2,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": ""
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.905,
+        "duplicate": 0.025,
+        "abstention": 0.07,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.055,
+        "cost": 3.164000000000009,
+        "loss": 5.723999999999997,
+        "checks": 1.83,
+        "retries": 0.355,
+        "waits": 2.71,
+        "counts": {
+          "success": 181,
+          "duplicate": 5,
+          "abstention": 14,
+          "false_completion": 0,
+          "unconfirmed_single": 11
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.615,
+          "duplicate": 0.37,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.6000000000000103,
+          "loss": 33.32000000000002,
+          "checks": 2.275,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 123,
+            "duplicate": 74,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.45,
+          "duplicate": 0.545,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.7440000000000118,
+          "loss": 47.384000000000086,
+          "checks": 2.1,
+          "retries": 1.02,
+          "waits": 0.0,
+          "counts": {
+            "success": 90,
+            "duplicate": 109,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.655,
+          "duplicate": 0.33,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 4.247999999999999,
+          "loss": 30.767999999999997,
+          "checks": 2.87,
+          "retries": 0.67,
+          "waits": 0.0,
+          "counts": {
+            "success": 131,
+            "duplicate": 66,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.52,
+          "duplicate": 0.48,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 4.433999999999997,
+          "loss": 42.913999999999994,
+          "checks": 2.855,
+          "retries": 0.84,
+          "waits": 0.0,
+          "counts": {
+            "success": 104,
+            "duplicate": 96,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.87,
+          "duplicate": 0.09,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 4.452000000000009,
+          "loss": 11.971999999999994,
+          "checks": 3.29,
+          "retries": 0.42,
+          "waits": 0.0,
+          "counts": {
+            "success": 174,
+            "duplicate": 18,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.13,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 4.452000000000009,
+          "loss": 15.371999999999968,
+          "checks": 3.225,
+          "retries": 0.485,
+          "waits": 0.0,
+          "counts": {
+            "success": 169,
+            "duplicate": 26,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.57,
+          "duplicate": 0.415,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 3.825999999999998,
+          "loss": 37.14599999999994,
+          "checks": 2.135,
+          "retries": 0.76,
+          "waits": 1.76,
+          "counts": {
+            "success": 114,
+            "duplicate": 83,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.39,
+          "duplicate": 0.605,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 4.195,
+          "loss": 53.235,
+          "checks": 2.075,
+          "retries": 1.075,
+          "waits": 2.075,
+          "counts": {
+            "success": 78,
+            "duplicate": 121,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.115,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 3.847000000000001,
+          "loss": 13.366999999999997,
+          "checks": 2.52,
+          "retries": 0.445,
+          "waits": 1.445,
+          "counts": {
+            "success": 169,
+            "duplicate": 23,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.155,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 3.847000000000001,
+          "loss": 16.886999999999993,
+          "checks": 2.44,
+          "retries": 0.525,
+          "waits": 1.445,
+          "counts": {
+            "success": 164,
+            "duplicate": 31,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 4.038000000000001,
+          "loss": 6.157999999999998,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 4.038000000000001,
+          "loss": 6.157999999999998,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.14,
+          "abstention": 0.045,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 3.0800000000000045,
+          "loss": 14.639999999999981,
+          "checks": 1.6,
+          "retries": 0.475,
+          "waits": 2.95,
+          "counts": {
+            "success": 164,
+            "duplicate": 28,
+            "abstention": 9,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.775,
+          "duplicate": 0.2,
+          "abstention": 0.125,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 3.0800000000000045,
+          "loss": 20.07999999999998,
+          "checks": 1.475,
+          "retries": 0.6,
+          "waits": 2.95,
+          "counts": {
+            "success": 155,
+            "duplicate": 40,
+            "abstention": 25,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 3.164000000000009,
+          "loss": 5.723999999999997,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 3.164000000000009,
+          "loss": 5.723999999999997,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 3.124000000000008,
+          "loss": 5.764000000000002,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 3.124000000000008,
+          "loss": 5.764000000000002,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 2.6280000000000077,
+          "loss": 15.508000000000008,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 2.6280000000000077,
+          "loss": 15.508000000000008,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 2.8960000000000043,
+          "loss": 6.41599999999998,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 2.8960000000000043,
+          "loss": 6.41599999999998,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 3.229000000000001,
+          "loss": 6.3089999999999815,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 3.229000000000001,
+          "loss": 6.3089999999999815,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.33,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 13.2,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 66,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.67,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 134
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "medium-fault_high-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 1,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": "abandon"
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.0,
+        "duplicate": 0.0,
+        "abstention": 1.0,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.67,
+        "cost": 0.0,
+        "loss": 8.0,
+        "checks": 0.0,
+        "retries": 0.0,
+        "waits": 0.0,
+        "counts": {
+          "success": 0,
+          "duplicate": 0,
+          "abstention": 200,
+          "false_completion": 0,
+          "unconfirmed_single": 134
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.615,
+          "duplicate": 0.37,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.424999999999981,
+          "loss": 40.145000000000046,
+          "checks": 2.275,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 123,
+            "duplicate": 74,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.45,
+          "duplicate": 0.545,
+          "abstention": 0.005,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.04399999999999,
+          "loss": 53.68400000000017,
+          "checks": 2.1,
+          "retries": 1.02,
+          "waits": 0.0,
+          "counts": {
+            "success": 90,
+            "duplicate": 109,
+            "abstention": 1,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.655,
+          "duplicate": 0.33,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 12.857999999999999,
+          "loss": 39.378,
+          "checks": 2.87,
+          "retries": 0.67,
+          "waits": 0.0,
+          "counts": {
+            "success": 131,
+            "duplicate": 66,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.52,
+          "duplicate": 0.48,
+          "abstention": 0.01,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 12.999000000000006,
+          "loss": 51.47899999999997,
+          "checks": 2.855,
+          "retries": 0.84,
+          "waits": 0.0,
+          "counts": {
+            "success": 104,
+            "duplicate": 96,
+            "abstention": 2,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.87,
+          "duplicate": 0.09,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 14.32199999999997,
+          "loss": 21.84199999999997,
+          "checks": 3.29,
+          "retries": 0.42,
+          "waits": 0.0,
+          "counts": {
+            "success": 174,
+            "duplicate": 18,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.13,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 14.12699999999997,
+          "loss": 25.046999999999976,
+          "checks": 3.225,
+          "retries": 0.485,
+          "waits": 0.0,
+          "counts": {
+            "success": 169,
+            "duplicate": 26,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.57,
+          "duplicate": 0.415,
+          "abstention": 0.015,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.0,
+          "cost": 10.23100000000002,
+          "loss": 43.55099999999993,
+          "checks": 2.135,
+          "retries": 0.76,
+          "waits": 1.76,
+          "counts": {
+            "success": 114,
+            "duplicate": 83,
+            "abstention": 3,
+            "false_completion": 0,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.39,
+          "duplicate": 0.605,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 10.42,
+          "loss": 59.46,
+          "checks": 2.075,
+          "retries": 1.075,
+          "waits": 2.075,
+          "counts": {
+            "success": 78,
+            "duplicate": 121,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.845,
+          "duplicate": 0.115,
+          "abstention": 0.04,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 11.407,
+          "loss": 20.92699999999999,
+          "checks": 2.52,
+          "retries": 0.445,
+          "waits": 1.445,
+          "counts": {
+            "success": 169,
+            "duplicate": 23,
+            "abstention": 8,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.155,
+          "abstention": 0.08,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 11.167,
+          "loss": 24.206999999999994,
+          "checks": 2.44,
+          "retries": 0.525,
+          "waits": 1.445,
+          "counts": {
+            "success": 164,
+            "duplicate": 31,
+            "abstention": 16,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 12.407999999999998,
+          "loss": 14.527999999999995,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.915,
+          "duplicate": 0.02,
+          "abstention": 0.065,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.05,
+          "cost": 12.407999999999998,
+          "loss": 14.527999999999995,
+          "checks": 2.79,
+          "retries": 0.35,
+          "waits": 1.35,
+          "counts": {
+            "success": 183,
+            "duplicate": 4,
+            "abstention": 13,
+            "false_completion": 0,
+            "unconfirmed_single": 10
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.82,
+          "duplicate": 0.14,
+          "abstention": 0.045,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.015,
+          "cost": 7.8799999999999875,
+          "loss": 19.43999999999998,
+          "checks": 1.6,
+          "retries": 0.475,
+          "waits": 2.95,
+          "counts": {
+            "success": 164,
+            "duplicate": 28,
+            "abstention": 9,
+            "false_completion": 0,
+            "unconfirmed_single": 3
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.775,
+          "duplicate": 0.2,
+          "abstention": 0.125,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.025,
+          "cost": 7.504999999999988,
+          "loss": 24.504999999999995,
+          "checks": 1.475,
+          "retries": 0.6,
+          "waits": 2.95,
+          "counts": {
+            "success": 155,
+            "duplicate": 40,
+            "abstention": 25,
+            "false_completion": 0,
+            "unconfirmed_single": 5
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 8.65399999999997,
+          "loss": 11.213999999999965,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.905,
+          "duplicate": 0.025,
+          "abstention": 0.07,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 8.65399999999997,
+          "loss": 11.213999999999965,
+          "checks": 1.83,
+          "retries": 0.355,
+          "waits": 2.71,
+          "counts": {
+            "success": 181,
+            "duplicate": 5,
+            "abstention": 14,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 8.61399999999997,
+          "loss": 11.253999999999964,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.33,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 8.61399999999997,
+          "loss": 11.253999999999964,
+          "checks": 1.83,
+          "retries": 0.33,
+          "waits": 2.66,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 66,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 5.62799999999999,
+          "loss": 18.508000000000024,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.54,
+          "duplicate": 0.115,
+          "abstention": 0.46,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.33,
+          "cost": 5.62799999999999,
+          "loss": 18.508000000000024,
+          "checks": 1.0,
+          "retries": 0.46,
+          "waits": 4.38,
+          "counts": {
+            "success": 108,
+            "duplicate": 23,
+            "abstention": 92,
+            "false_completion": 0,
+            "unconfirmed_single": 66
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 7.2759999999999785,
+          "loss": 10.795999999999971,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.66,
+          "duplicate": 0.01,
+          "abstention": 0.34,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.325,
+          "cost": 7.2759999999999785,
+          "loss": 10.795999999999971,
+          "checks": 1.46,
+          "retries": 0.34,
+          "waits": 3.68,
+          "counts": {
+            "success": 132,
+            "duplicate": 2,
+            "abstention": 68,
+            "false_completion": 0,
+            "unconfirmed_single": 65
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 8.628999999999973,
+          "loss": 11.708999999999982,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.005,
+          "abstention": 0.335,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.305,
+          "cost": 8.628999999999973,
+          "loss": 11.708999999999982,
+          "checks": 1.8,
+          "retries": 0.335,
+          "waits": 3.335,
+          "counts": {
+            "success": 133,
+            "duplicate": 1,
+            "abstention": 67,
+            "false_completion": 0,
+            "unconfirmed_single": 61
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.33,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 13.2,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 134,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 66,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.67,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 134
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "high-fault_low-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 3,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": ""
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.73,
+        "duplicate": 0.025,
+        "abstention": 0.245,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.19,
+        "cost": 2.285000000000007,
+        "loss": 6.244999999999987,
+        "checks": 3.8,
+        "retries": 0.675,
+        "waits": 1.675,
+        "counts": {
+          "success": 146,
+          "duplicate": 5,
+          "abstention": 49,
+          "false_completion": 0,
+          "unconfirmed_single": 38
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.755,
+          "duplicate": 0.215,
+          "abstention": 0.03,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 2.0145000000000035,
+          "loss": 19.454500000000028,
+          "checks": 3.175,
+          "retries": 0.885,
+          "waits": 0.0,
+          "counts": {
+            "success": 151,
+            "duplicate": 43,
+            "abstention": 6,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.335,
+          "duplicate": 0.655,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 2.581500000000007,
+          "loss": 55.141499999999944,
+          "checks": 2.805,
+          "retries": 1.45,
+          "waits": 0.0,
+          "counts": {
+            "success": 67,
+            "duplicate": 131,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.765,
+          "duplicate": 0.18,
+          "abstention": 0.055,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 2.1690000000000027,
+          "loss": 17.008999999999983,
+          "checks": 3.89,
+          "retries": 0.835,
+          "waits": 0.0,
+          "counts": {
+            "success": 153,
+            "duplicate": 36,
+            "abstention": 11,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.435,
+          "duplicate": 0.545,
+          "abstention": 0.085,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 2.641500000000001,
+          "loss": 46.92150000000001,
+          "checks": 3.825,
+          "retries": 1.245,
+          "waits": 0.0,
+          "counts": {
+            "success": 87,
+            "duplicate": 109,
+            "abstention": 17,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.805,
+          "duplicate": 0.075,
+          "abstention": 0.12,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.085,
+          "cost": 2.2470000000000003,
+          "loss": 9.207,
+          "checks": 4.59,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 161,
+            "duplicate": 15,
+            "abstention": 24,
+            "false_completion": 0,
+            "unconfirmed_single": 17
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.7,
+          "duplicate": 0.26,
+          "abstention": 0.225,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.04,
+          "cost": 2.449499999999996,
+          "loss": 25.04949999999998,
+          "checks": 4.365,
+          "retries": 0.95,
+          "waits": 0.0,
+          "counts": {
+            "success": 140,
+            "duplicate": 52,
+            "abstention": 45,
+            "false_completion": 0,
+            "unconfirmed_single": 8
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.735,
+          "duplicate": 0.21,
+          "abstention": 0.06,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 2.2299999999999986,
+          "loss": 19.509999999999977,
+          "checks": 2.73,
+          "retries": 0.865,
+          "waits": 1.865,
+          "counts": {
+            "success": 147,
+            "duplicate": 42,
+            "abstention": 12,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.345,
+          "duplicate": 0.635,
+          "abstention": 0.205,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 2.9054999999999946,
+          "loss": 55.34549999999996,
+          "checks": 2.415,
+          "retries": 1.415,
+          "waits": 2.415,
+          "counts": {
+            "success": 69,
+            "duplicate": 127,
+            "abstention": 41,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.77,
+          "duplicate": 0.1,
+          "abstention": 0.14,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.095,
+          "cost": 2.274500000000005,
+          "loss": 11.394499999999983,
+          "checks": 3.415,
+          "retries": 0.75,
+          "waits": 1.75,
+          "counts": {
+            "success": 154,
+            "duplicate": 20,
+            "abstention": 28,
+            "false_completion": 0,
+            "unconfirmed_single": 19
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.64,
+          "duplicate": 0.315,
+          "abstention": 0.28,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.045,
+          "cost": 2.526500000000003,
+          "loss": 29.966500000000032,
+          "checks": 3.135,
+          "retries": 1.03,
+          "waits": 1.75,
+          "counts": {
+            "success": 128,
+            "duplicate": 63,
+            "abstention": 56,
+            "false_completion": 0,
+            "unconfirmed_single": 9
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 2.285000000000007,
+          "loss": 6.244999999999987,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 2.285000000000007,
+          "loss": 6.244999999999987,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.175,
+          "abstention": 0.17,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.12,
+          "cost": 2.384499999999998,
+          "loss": 17.744499999999988,
+          "checks": 2.215,
+          "retries": 0.825,
+          "waits": 3.65,
+          "counts": {
+            "success": 134,
+            "duplicate": 35,
+            "abstention": 34,
+            "false_completion": 0,
+            "unconfirmed_single": 24
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.49,
+          "duplicate": 0.455,
+          "abstention": 0.39,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 2.7355000000000045,
+          "loss": 42.25550000000008,
+          "checks": 1.825,
+          "retries": 1.215,
+          "waits": 3.65,
+          "counts": {
+            "success": 98,
+            "duplicate": 91,
+            "abstention": 78,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 2.2869999999999933,
+          "loss": 8.967000000000025,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 2.2869999999999933,
+          "loss": 8.967000000000025,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 2.2469999999999937,
+          "loss": 9.687000000000026,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 2.2469999999999937,
+          "loss": 9.687000000000026,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 2.2589999999999923,
+          "loss": 16.69899999999998,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 2.2589999999999923,
+          "loss": 16.69899999999998,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 2.2385000000000024,
+          "loss": 10.998500000000002,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 2.2385000000000024,
+          "loss": 10.998500000000002,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 2.2939999999999916,
+          "loss": 10.574000000000035,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 2.2939999999999916,
+          "loss": 10.574000000000035,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.35,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.65,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 26.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 70,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 130,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.35,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 70
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "high-fault_medium-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 1,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": "abandon"
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.0,
+        "duplicate": 0.0,
+        "abstention": 1.0,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.35,
+        "cost": 0.0,
+        "loss": 8.0,
+        "checks": 0.0,
+        "retries": 0.0,
+        "waits": 0.0,
+        "counts": {
+          "success": 0,
+          "duplicate": 0,
+          "abstention": 200,
+          "false_completion": 0,
+          "unconfirmed_single": 70
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.755,
+          "duplicate": 0.215,
+          "abstention": 0.03,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 4.872000000000006,
+          "loss": 22.311999999999994,
+          "checks": 3.175,
+          "retries": 0.885,
+          "waits": 0.0,
+          "counts": {
+            "success": 151,
+            "duplicate": 43,
+            "abstention": 6,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.335,
+          "duplicate": 0.655,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 5.106000000000011,
+          "loss": 57.66600000000011,
+          "checks": 2.805,
+          "retries": 1.45,
+          "waits": 0.0,
+          "counts": {
+            "success": 67,
+            "duplicate": 131,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.765,
+          "duplicate": 0.18,
+          "abstention": 0.055,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 5.669999999999999,
+          "loss": 20.51000000000001,
+          "checks": 3.89,
+          "retries": 0.835,
+          "waits": 0.0,
+          "counts": {
+            "success": 153,
+            "duplicate": 36,
+            "abstention": 11,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.435,
+          "duplicate": 0.545,
+          "abstention": 0.085,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 6.083999999999994,
+          "loss": 50.36399999999997,
+          "checks": 3.825,
+          "retries": 1.245,
+          "waits": 0.0,
+          "counts": {
+            "success": 87,
+            "duplicate": 109,
+            "abstention": 17,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.805,
+          "duplicate": 0.075,
+          "abstention": 0.12,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.085,
+          "cost": 6.378000000000004,
+          "loss": 13.33799999999999,
+          "checks": 4.59,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 161,
+            "duplicate": 15,
+            "abstention": 24,
+            "false_completion": 0,
+            "unconfirmed_single": 17
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.7,
+          "duplicate": 0.26,
+          "abstention": 0.225,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.04,
+          "cost": 6.378000000000004,
+          "loss": 28.977999999999994,
+          "checks": 4.365,
+          "retries": 0.95,
+          "waits": 0.0,
+          "counts": {
+            "success": 140,
+            "duplicate": 52,
+            "abstention": 45,
+            "false_completion": 0,
+            "unconfirmed_single": 8
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.735,
+          "duplicate": 0.21,
+          "abstention": 0.06,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 4.687000000000003,
+          "loss": 21.966999999999988,
+          "checks": 2.73,
+          "retries": 0.865,
+          "waits": 1.865,
+          "counts": {
+            "success": 147,
+            "duplicate": 42,
+            "abstention": 12,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.345,
+          "duplicate": 0.635,
+          "abstention": 0.205,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 5.079000000000006,
+          "loss": 57.51900000000007,
+          "checks": 2.415,
+          "retries": 1.415,
+          "waits": 2.415,
+          "counts": {
+            "success": 69,
+            "duplicate": 127,
+            "abstention": 41,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.77,
+          "duplicate": 0.1,
+          "abstention": 0.14,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.095,
+          "cost": 5.348000000000004,
+          "loss": 14.467999999999993,
+          "checks": 3.415,
+          "retries": 0.75,
+          "waits": 1.75,
+          "counts": {
+            "success": 154,
+            "duplicate": 20,
+            "abstention": 28,
+            "false_completion": 0,
+            "unconfirmed_single": 19
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.64,
+          "duplicate": 0.315,
+          "abstention": 0.28,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.045,
+          "cost": 5.348000000000004,
+          "loss": 32.78799999999999,
+          "checks": 3.135,
+          "retries": 1.03,
+          "waits": 1.75,
+          "counts": {
+            "success": 128,
+            "duplicate": 63,
+            "abstention": 56,
+            "false_completion": 0,
+            "unconfirmed_single": 9
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 5.704999999999997,
+          "loss": 9.664999999999987,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 5.704999999999997,
+          "loss": 9.664999999999987,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.175,
+          "abstention": 0.17,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.12,
+          "cost": 4.378000000000003,
+          "loss": 19.73799999999999,
+          "checks": 2.215,
+          "retries": 0.825,
+          "waits": 3.65,
+          "counts": {
+            "success": 134,
+            "duplicate": 35,
+            "abstention": 34,
+            "false_completion": 0,
+            "unconfirmed_single": 24
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.49,
+          "duplicate": 0.455,
+          "abstention": 0.39,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 4.378000000000003,
+          "loss": 43.89800000000004,
+          "checks": 1.825,
+          "retries": 1.215,
+          "waits": 3.65,
+          "counts": {
+            "success": 98,
+            "duplicate": 91,
+            "abstention": 78,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 4.564000000000011,
+          "loss": 11.24399999999996,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 4.564000000000011,
+          "loss": 11.24399999999996,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 4.524000000000012,
+          "loss": 11.963999999999965,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 4.524000000000012,
+          "loss": 11.963999999999965,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 3.159000000000008,
+          "loss": 17.59899999999998,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 3.159000000000008,
+          "loss": 17.59899999999998,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 3.8180000000000063,
+          "loss": 12.57799999999998,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 3.8180000000000063,
+          "loss": 12.57799999999998,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 4.499000000000006,
+          "loss": 12.778999999999975,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 4.499000000000006,
+          "loss": 12.778999999999975,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.35,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.65,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 26.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 70,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 130,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.35,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 70
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "high-fault_high-check_matched",
+    "selected": {
+      "rule": {
+        "wait": 1,
+        "negatives": 1,
+        "retries": 1,
+        "immediate_retry": false,
+        "initial_terminal": "abandon"
+      },
+      "metrics": {
+        "n": 200,
+        "success": 0.0,
+        "duplicate": 0.0,
+        "abstention": 1.0,
+        "false_completion": 0.0,
+        "unconfirmed_single": 0.35,
+        "cost": 0.0,
+        "loss": 8.0,
+        "checks": 0.0,
+        "retries": 0.0,
+        "waits": 0.0,
+        "counts": {
+          "success": 0,
+          "duplicate": 0,
+          "abstention": 200,
+          "false_completion": 0,
+          "unconfirmed_single": 70
+        }
+      }
+    },
+    "grid": [
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.755,
+          "duplicate": 0.215,
+          "abstention": 0.03,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.01,
+          "cost": 14.396999999999977,
+          "loss": 31.83700000000003,
+          "checks": 3.175,
+          "retries": 0.885,
+          "waits": 0.0,
+          "counts": {
+            "success": 151,
+            "duplicate": 43,
+            "abstention": 6,
+            "false_completion": 0,
+            "unconfirmed_single": 2
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.335,
+          "duplicate": 0.655,
+          "abstention": 0.02,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.005,
+          "cost": 13.520999999999974,
+          "loss": 66.08100000000013,
+          "checks": 2.805,
+          "retries": 1.45,
+          "waits": 0.0,
+          "counts": {
+            "success": 67,
+            "duplicate": 131,
+            "abstention": 4,
+            "false_completion": 0,
+            "unconfirmed_single": 1
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.765,
+          "duplicate": 0.18,
+          "abstention": 0.055,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 17.34000000000001,
+          "loss": 32.17999999999999,
+          "checks": 3.89,
+          "retries": 0.835,
+          "waits": 0.0,
+          "counts": {
+            "success": 153,
+            "duplicate": 36,
+            "abstention": 11,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.435,
+          "duplicate": 0.545,
+          "abstention": 0.085,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 17.559000000000022,
+          "loss": 61.83899999999992,
+          "checks": 3.825,
+          "retries": 1.245,
+          "waits": 0.0,
+          "counts": {
+            "success": 87,
+            "duplicate": 109,
+            "abstention": 17,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.805,
+          "duplicate": 0.075,
+          "abstention": 0.12,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.085,
+          "cost": 20.147999999999975,
+          "loss": 27.10799999999998,
+          "checks": 4.59,
+          "retries": 0.725,
+          "waits": 0.0,
+          "counts": {
+            "success": 161,
+            "duplicate": 15,
+            "abstention": 24,
+            "false_completion": 0,
+            "unconfirmed_single": 17
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 0,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.7,
+          "duplicate": 0.26,
+          "abstention": 0.225,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.04,
+          "cost": 19.472999999999978,
+          "loss": 42.073,
+          "checks": 4.365,
+          "retries": 0.95,
+          "waits": 0.0,
+          "counts": {
+            "success": 140,
+            "duplicate": 52,
+            "abstention": 45,
+            "false_completion": 0,
+            "unconfirmed_single": 8
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.735,
+          "duplicate": 0.21,
+          "abstention": 0.06,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.03,
+          "cost": 12.877000000000008,
+          "loss": 30.15699999999996,
+          "checks": 2.73,
+          "retries": 0.865,
+          "waits": 1.865,
+          "counts": {
+            "success": 147,
+            "duplicate": 42,
+            "abstention": 12,
+            "false_completion": 0,
+            "unconfirmed_single": 6
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.345,
+          "duplicate": 0.635,
+          "abstention": 0.205,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.02,
+          "cost": 12.323999999999982,
+          "loss": 64.76400000000008,
+          "checks": 2.415,
+          "retries": 1.415,
+          "waits": 2.415,
+          "counts": {
+            "success": 69,
+            "duplicate": 127,
+            "abstention": 41,
+            "false_completion": 0,
+            "unconfirmed_single": 4
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.77,
+          "duplicate": 0.1,
+          "abstention": 0.14,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.095,
+          "cost": 15.592999999999995,
+          "loss": 24.712999999999987,
+          "checks": 3.415,
+          "retries": 0.75,
+          "waits": 1.75,
+          "counts": {
+            "success": 154,
+            "duplicate": 20,
+            "abstention": 28,
+            "false_completion": 0,
+            "unconfirmed_single": 19
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.64,
+          "duplicate": 0.315,
+          "abstention": 0.28,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.045,
+          "cost": 14.752999999999995,
+          "loss": 42.192999999999984,
+          "checks": 3.135,
+          "retries": 1.03,
+          "waits": 1.75,
+          "counts": {
+            "success": 128,
+            "duplicate": 63,
+            "abstention": 56,
+            "false_completion": 0,
+            "unconfirmed_single": 9
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 17.10499999999999,
+          "loss": 21.064999999999994,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.73,
+          "duplicate": 0.025,
+          "abstention": 0.245,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.19,
+          "cost": 17.10499999999999,
+          "loss": 21.064999999999994,
+          "checks": 3.8,
+          "retries": 0.675,
+          "waits": 1.675,
+          "counts": {
+            "success": 146,
+            "duplicate": 5,
+            "abstention": 49,
+            "false_completion": 0,
+            "unconfirmed_single": 38
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.67,
+          "duplicate": 0.175,
+          "abstention": 0.17,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.12,
+          "cost": 11.02299999999999,
+          "loss": 26.383000000000017,
+          "checks": 2.215,
+          "retries": 0.825,
+          "waits": 3.65,
+          "counts": {
+            "success": 134,
+            "duplicate": 35,
+            "abstention": 34,
+            "false_completion": 0,
+            "unconfirmed_single": 24
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.49,
+          "duplicate": 0.455,
+          "abstention": 0.39,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.055,
+          "cost": 9.85299999999999,
+          "loss": 49.37300000000004,
+          "checks": 1.825,
+          "retries": 1.215,
+          "waits": 3.65,
+          "counts": {
+            "success": 98,
+            "duplicate": 91,
+            "abstention": 78,
+            "false_completion": 0,
+            "unconfirmed_single": 11
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 12.153999999999963,
+          "loss": 18.83399999999996,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.665,
+          "duplicate": 0.055,
+          "abstention": 0.285,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.225,
+          "cost": 12.153999999999963,
+          "loss": 18.83399999999996,
+          "checks": 2.53,
+          "retries": 0.705,
+          "waits": 3.41,
+          "counts": {
+            "success": 133,
+            "duplicate": 11,
+            "abstention": 57,
+            "false_completion": 0,
+            "unconfirmed_single": 45
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 12.113999999999965,
+          "loss": 19.55399999999996,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 2,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.32,
+          "duplicate": 0.025,
+          "abstention": 0.68,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 12.113999999999965,
+          "loss": 19.55399999999996,
+          "checks": 2.53,
+          "retries": 0.68,
+          "waits": 3.36,
+          "counts": {
+            "success": 64,
+            "duplicate": 5,
+            "abstention": 136,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 6.158999999999992,
+          "loss": 20.598999999999986,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 1,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.245,
+          "duplicate": 0.105,
+          "abstention": 0.755,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.595,
+          "cost": 6.158999999999992,
+          "loss": 20.598999999999986,
+          "checks": 1.0,
+          "retries": 0.755,
+          "waits": 5.265,
+          "counts": {
+            "success": 49,
+            "duplicate": 21,
+            "abstention": 151,
+            "false_completion": 0,
+            "unconfirmed_single": 119
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 9.08299999999997,
+          "loss": 17.842999999999975,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 2,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.305,
+          "duplicate": 0.04,
+          "abstention": 0.695,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.645,
+          "cost": 9.08299999999997,
+          "loss": 17.842999999999975,
+          "checks": 1.755,
+          "retries": 0.695,
+          "waits": 4.39,
+          "counts": {
+            "success": 61,
+            "duplicate": 8,
+            "abstention": 139,
+            "false_completion": 0,
+            "unconfirmed_single": 129
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 11.848999999999968,
+          "loss": 20.12899999999998,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 3,
+          "negatives": 3,
+          "retries": 2,
+          "immediate_retry": false,
+          "initial_terminal": ""
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.315,
+          "duplicate": 0.035,
+          "abstention": 0.685,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.61,
+          "cost": 11.848999999999968,
+          "loss": 20.12899999999998,
+          "checks": 2.45,
+          "retries": 0.685,
+          "waits": 3.685,
+          "counts": {
+            "success": 63,
+            "duplicate": 7,
+            "abstention": 137,
+            "false_completion": 0,
+            "unconfirmed_single": 122
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "accept"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.35,
+          "duplicate": 0.0,
+          "abstention": 0.0,
+          "false_completion": 0.65,
+          "unconfirmed_single": 0.0,
+          "cost": 0.0,
+          "loss": 26.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 70,
+            "duplicate": 0,
+            "abstention": 0,
+            "false_completion": 130,
+            "unconfirmed_single": 0
+          }
+        }
+      },
+      {
+        "rule": {
+          "wait": 1,
+          "negatives": 1,
+          "retries": 1,
+          "immediate_retry": false,
+          "initial_terminal": "abandon"
+        },
+        "metrics": {
+          "n": 200,
+          "success": 0.0,
+          "duplicate": 0.0,
+          "abstention": 1.0,
+          "false_completion": 0.0,
+          "unconfirmed_single": 0.35,
+          "cost": 0.0,
+          "loss": 8.0,
+          "checks": 0.0,
+          "retries": 0.0,
+          "waits": 0.0,
+          "counts": {
+            "success": 0,
+            "duplicate": 0,
+            "abstention": 200,
+            "false_completion": 0,
+            "unconfirmed_single": 70
+          }
+        }
+      }
+    ]
+  }
+]

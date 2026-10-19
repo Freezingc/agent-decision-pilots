@@ -1,0 +1,15 @@
+{
+  "finalized_utc": "2026-10-19T15:53:51.750494+00:00",
+  "status": "reviewable_no_retuning",
+  "final_run_manifest_sha256": "c05f18d9a7b269f2baa23d39167170296089bb5415d9f9c42fe8dda84d45b75f",
+  "audit_manifest_sha256": "435240d87a4b6a7108837ec77904098b720955604794183cfd29aee594e639b4",
+  "notes_sha256": "e0a479bad0aeeb123cbca54d2b7ebbf01632af354dbc5bc6f9711a5428aa2957",
+  "source_unchanged_since_final_run": true,
+  "precursor_archive_manifest_verified": true,
+  "all_scope_writes": [
+    "src/agent_pilots/recovery_robust.py",
+    "tests/test_recovery_robust.py",
+    "artifacts/p1/robust-v2/",
+    "docs/p1-robust-notes.md"
+  ]
+}

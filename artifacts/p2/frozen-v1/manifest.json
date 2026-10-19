@@ -1,0 +1,50 @@
+{
+  "status": "prepared",
+  "evidence_type": "official_synthetic_benchmark_relation_subset",
+  "source_url": "https://raw.githubusercontent.com/TaoZhen1110/MemConflict/ec51d5d36e87f7665d1337f3a88cbde95fc2a964/Data/Step4_4.jsonl",
+  "source_commit": "ec51d5d36e87f7665d1337f3a88cbde95fc2a964",
+  "source_sha256": "8ef9ec8589eccb86f63ab3a819a9180217405351a8d5846866721ea74babe092",
+  "source_license": "not declared in official repository; source text local only, no redistribution",
+  "adapter": "p2-v1 first-person residence predicates; condition-word-anchored first-person preferences; first two per class/profile",
+  "split": "SHA256(p2-v0:split:<profile>) ordering; first 8 profiles dev, remaining test",
+  "n": 84,
+  "groups": 21,
+  "class_counts": {
+    "supersede": 42,
+    "coexist": 42
+  },
+  "split_counts": {
+    "test": 52,
+    "dev": 32
+  },
+  "files": {
+    "requests": {
+      "path": "raw-downloads/requests.jsonl",
+      "sha256": "b113ec63ba0730740e5b6b0e599a14fc5c4509a154448ab57ac9a95a53a3691a"
+    },
+    "cases": {
+      "path": "raw-downloads/cases.jsonl",
+      "sha256": "b226658131d4121c5a8e8b2707fa9f9426bb9506ca24fd98f6913b76f04dee42"
+    },
+    "labels": {
+      "path": "labels.jsonl",
+      "sha256": "0723b24457d6f61c38b933bf2056f9b02072bf4d92998a2c2632d57e7d59c0ef"
+    }
+  },
+  "analysis_protocol": {
+    "threshold_grid": [
+      0,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      1,
+      1.000001
+    ],
+    "dev_false_overwrite_cap": 0.05,
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 1701
+  }
+}

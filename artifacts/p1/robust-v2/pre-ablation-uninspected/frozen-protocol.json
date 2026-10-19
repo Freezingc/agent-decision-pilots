@@ -1,0 +1,136 @@
+{
+  "schema": "p1-robust-v2",
+  "frozen_utc": "2026-10-19T15:43:58.032720+00:00",
+  "status": "design_frozen_before_implementation_and_results",
+  "evidence": "synthetic only; ordinary robust POMDP is not a novelty claim",
+  "seed": 2026101902,
+  "dev_n_per_model": 200,
+  "test_n_per_condition": 600,
+  "test_blocks": 3,
+  "horizon": 12,
+  "lookahead": 4,
+  "faults": {
+    "low": [
+      0.1,
+      0.05
+    ],
+    "medium": [
+      0.35,
+      0.2
+    ]
+  },
+  "check_costs": [
+    0.1,
+    1.0
+  ],
+  "delays": {
+    "nominal": [
+      [
+        0,
+        0.25
+      ],
+      [
+        1,
+        0.25
+      ],
+      [
+        3,
+        0.5
+      ]
+    ],
+    "long": [
+      [
+        0,
+        0.1
+      ],
+      [
+        3,
+        0.2
+      ],
+      [
+        6,
+        0.7
+      ]
+    ],
+    "outside": [
+      [
+        0,
+        0.05
+      ],
+      [
+        6,
+        0.15
+      ],
+      [
+        10,
+        0.8
+      ]
+    ]
+  },
+  "declared_model_set": [
+    "nominal",
+    "long"
+  ],
+  "other_parameters": "v1 defaults, equally known to all model-based policies",
+  "retry_limit_robust_and_threshold": 1,
+  "conditional_risk_limits": {
+    "pre_retry_executed_probability": 0.01,
+    "accept_not_executed_probability": 0.05
+  },
+  "robust_candidate": "4-step rectangular max-of-model conditional expected losses, with history-conditioned per-model Bayes beliefs and action risk gates; conservative heuristic for a fixed unknown model, not exact nonrectangular minimax",
+  "model_weights": "equal prior Bayes model weights recorded diagnostically, not used to discard models or relax worst-case gate",
+  "simple_posterior_grid": {
+    "check_every": [
+      1,
+      2,
+      3
+    ],
+    "abandon_after": [
+      4,
+      8,
+      12
+    ],
+    "risk_gates": "same as robust"
+  },
+  "fixed_grid": {
+    "wait": [
+      0,
+      3,
+      5
+    ],
+    "check_every": [
+      1,
+      2
+    ],
+    "negative_checks": [
+      1,
+      3,
+      4
+    ],
+    "direct_accept_after_retry": [
+      false,
+      true
+    ],
+    "abandon_after": [
+      4,
+      8,
+      12
+    ],
+    "retry_limit": [
+      0,
+      1
+    ],
+    "extra": [
+      "immediate_accept",
+      "immediate_abandon"
+    ]
+  },
+  "dev_selection": "pool equal-weight nominal+long; loss=cost+40*false_completion+80*duplicate+8*abstention; pick minimum loss; additionally min-cost rule with success >= robust_dev_success-.01, duplicate <= robust_dev_duplicate+.01, false_completion <= robust_dev_false_completion+.01; unavailable if none",
+  "test_selection": "none; outside delays never used for development",
+  "seed_formulas": {
+    "dev": "seed*1000000 + i (same initial draws across dev model regimes)",
+    "test": "seed*1000000+100000+block*10000+i"
+  },
+  "uncertainty": "paired seed normal descriptive intervals; no rare-risk certification; shared condition seeds not independent across conditions",
+  "stop": "no new algorithm claim; stop before real-agent expansion if simple matched-quality rule explains gains, robustness mostly abstention, or outside-set failures; no test-informed retuning"
+}

@@ -1,0 +1,794 @@
+{
+  "condition": {
+    "allow_ask": true,
+    "allow_probe": true,
+    "ask_accuracy": 0.8,
+    "ask_cost": 0.12,
+    "ask_missing": 0.0,
+    "name": "transfer_training",
+    "probe_accuracy": 0.85,
+    "probe_cost": 0.08,
+    "probe_missing": 0.0
+  },
+  "ledger": [
+    {
+      "index": 0,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": "no_information"
+    },
+    {
+      "index": 1,
+      "mean_calls": 1.0,
+      "mean_net_utility": 0.65515625,
+      "policy": "never_ask"
+    },
+    {
+      "index": 2,
+      "mean_calls": 1.0,
+      "mean_net_utility": 0.59015625,
+      "policy": "always_ask"
+    },
+    {
+      "index": 3,
+      "mean_calls": 2.0,
+      "mean_net_utility": 0.5531250000000001,
+      "policy": "probe_then_ask"
+    },
+    {
+      "index": 4,
+      "mean_calls": 1.0,
+      "mean_net_utility": 0.6478125,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 5,
+      "mean_calls": 1.02734375,
+      "mean_net_utility": 0.6392187500000001,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 6,
+      "mean_calls": 0.8671875,
+      "mean_net_utility": 0.6584375,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "max_net",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 7,
+      "mean_calls": 0.8671875,
+      "mean_net_utility": 0.65953125,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "probe_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 8,
+      "mean_calls": 0.8515625,
+      "mean_net_utility": 0.65609375,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "ask_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 9,
+      "mean_calls": 0.734375,
+      "mean_net_utility": 0.67015625,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "max_net",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 10,
+      "mean_calls": 0.82421875,
+      "mean_net_utility": 0.6646875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 11,
+      "mean_calls": 0.72265625,
+      "mean_net_utility": 0.6715625000000001,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 12,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6753125,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "max_net",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 13,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 14,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 15,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "max_net",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 16,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "probe_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 17,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "ask_first",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 18,
+      "mean_calls": 0.69140625,
+      "mean_net_utility": 0.6798437500000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "max_net",
+        "probe_multiplier": 0.0
+      }
+    },
+    {
+      "index": 19,
+      "mean_calls": 0.5625,
+      "mean_net_utility": 0.69375,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 20,
+      "mean_calls": 0.56640625,
+      "mean_net_utility": 0.67921875,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 21,
+      "mean_calls": 0.5234375,
+      "mean_net_utility": 0.696875,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "max_net",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 22,
+      "mean_calls": 0.47265625,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "probe_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 23,
+      "mean_calls": 0.43359375,
+      "mean_net_utility": 0.6896875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "ask_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 24,
+      "mean_calls": 0.43359375,
+      "mean_net_utility": 0.7021875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "max_net",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 25,
+      "mean_calls": 0.47265625,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 26,
+      "mean_calls": 0.43359375,
+      "mean_net_utility": 0.7009375,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 27,
+      "mean_calls": 0.43359375,
+      "mean_net_utility": 0.7021875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "max_net",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 28,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "probe_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 29,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "ask_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 30,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "max_net",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 31,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "probe_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 32,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "ask_first",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 33,
+      "mean_calls": 0.33984375,
+      "mean_net_utility": 0.7103125,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "max_net",
+        "probe_multiplier": 0.5
+      }
+    },
+    {
+      "index": 34,
+      "mean_calls": 0.45703125,
+      "mean_net_utility": 0.6865625,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "probe_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 35,
+      "mean_calls": 0.5,
+      "mean_net_utility": 0.66890625,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "ask_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 36,
+      "mean_calls": 0.45703125,
+      "mean_net_utility": 0.6865625,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "max_net",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 37,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.691875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "probe_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 38,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.6793750000000001,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "ask_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 39,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.691875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "max_net",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 40,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.691875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "probe_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 41,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.690625,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "ask_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 42,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.691875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "max_net",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 43,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "probe_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 44,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "ask_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 45,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "max_net",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 46,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "probe_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 47,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "ask_first",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 48,
+      "mean_calls": 0.234375,
+      "mean_net_utility": 0.7078125000000001,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "max_net",
+        "probe_multiplier": 1.0
+      }
+    },
+    {
+      "index": 49,
+      "mean_calls": 0.45703125,
+      "mean_net_utility": 0.6753125,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "probe_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 50,
+      "mean_calls": 0.5,
+      "mean_net_utility": 0.66890625,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "ask_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 51,
+      "mean_calls": 0.45703125,
+      "mean_net_utility": 0.6753125,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "max_net",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 52,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.680625,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "probe_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 53,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.6793750000000001,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "ask_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 54,
+      "mean_calls": 0.3671875,
+      "mean_net_utility": 0.680625,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "max_net",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 55,
+      "mean_calls": 0.28125,
+      "mean_net_utility": 0.683125,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "probe_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 56,
+      "mean_calls": 0.28125,
+      "mean_net_utility": 0.681875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "ask_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 57,
+      "mean_calls": 0.28125,
+      "mean_net_utility": 0.683125,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "max_net",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 58,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "probe_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 59,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "ask_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 60,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "max_net",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 61,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "probe_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 62,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "ask_first",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 63,
+      "mean_calls": 0.1484375,
+      "mean_net_utility": 0.6990625,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "max_net",
+        "probe_multiplier": 2.0
+      }
+    },
+    {
+      "index": 64,
+      "mean_calls": 0.3828125,
+      "mean_net_utility": 0.661875,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "probe_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 65,
+      "mean_calls": 0.3828125,
+      "mean_net_utility": 0.661875,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "ask_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 66,
+      "mean_calls": 0.3828125,
+      "mean_net_utility": 0.661875,
+      "policy": {
+        "ask_multiplier": 0.0,
+        "order": "max_net",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 67,
+      "mean_calls": 0.25,
+      "mean_net_utility": 0.66296875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "probe_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 68,
+      "mean_calls": 0.25,
+      "mean_net_utility": 0.66296875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "ask_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 69,
+      "mean_calls": 0.25,
+      "mean_net_utility": 0.66296875,
+      "policy": {
+        "ask_multiplier": 0.5,
+        "order": "max_net",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 70,
+      "mean_calls": 0.1640625,
+      "mean_net_utility": 0.66546875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "probe_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 71,
+      "mean_calls": 0.1640625,
+      "mean_net_utility": 0.66546875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "ask_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 72,
+      "mean_calls": 0.1640625,
+      "mean_net_utility": 0.66546875,
+      "policy": {
+        "ask_multiplier": 1.0,
+        "order": "max_net",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 73,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "probe_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 74,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "ask_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 75,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": 2.0,
+        "order": "max_net",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 76,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "probe_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 77,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "ask_first",
+        "probe_multiplier": null
+      }
+    },
+    {
+      "index": 78,
+      "mean_calls": 0.0,
+      "mean_net_utility": 0.6734375,
+      "policy": {
+        "ask_multiplier": null,
+        "order": "max_net",
+        "probe_multiplier": null
+      }
+    }
+  ],
+  "selected": {
+    "ask_multiplier": 2.0,
+    "order": "probe_first",
+    "probe_multiplier": 0.5
+  }
+}

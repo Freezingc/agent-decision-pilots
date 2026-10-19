@@ -1,0 +1,221 @@
+{
+  "gate_selected_only_on_dev": {
+    "pass_mask": "00",
+    "fail_mask": "10",
+    "length_cutoff": 1000000000
+  },
+  "dev_full": {
+    "instances": 96,
+    "successes": 77,
+    "success_rate": 0.8020833333333334,
+    "mean_tokens": 787.1354166666666,
+    "mean_output_tokens": 168.44791666666666,
+    "mask_counts": {
+      "00": 0,
+      "10": 0,
+      "01": 0,
+      "11": 96
+    }
+  },
+  "dev_gate": {
+    "instances": 96,
+    "successes": 77,
+    "success_rate": 0.8020833333333334,
+    "mean_tokens": 221.66666666666666,
+    "mean_output_tokens": 63.333333333333336,
+    "mask_counts": {
+      "00": 86,
+      "10": 10,
+      "01": 0,
+      "11": 0
+    }
+  },
+  "test_fixed": {
+    "00": {
+      "instances": 96,
+      "successes": 74,
+      "success_rate": 0.7708333333333334,
+      "mean_tokens": 193.48958333333334,
+      "mean_output_tokens": 66.94791666666667,
+      "mask_counts": {
+        "00": 96,
+        "10": 0,
+        "01": 0,
+        "11": 0
+      }
+    },
+    "10": {
+      "instances": 96,
+      "successes": 75,
+      "success_rate": 0.78125,
+      "mean_tokens": 530.09375,
+      "mean_output_tokens": 133.90625,
+      "mask_counts": {
+        "00": 0,
+        "10": 96,
+        "01": 0,
+        "11": 0
+      }
+    },
+    "01": {
+      "instances": 96,
+      "successes": 73,
+      "success_rate": 0.7604166666666666,
+      "mean_tokens": 493.9895833333333,
+      "mean_output_tokens": 133.94791666666666,
+      "mask_counts": {
+        "00": 0,
+        "10": 0,
+        "01": 96,
+        "11": 0
+      }
+    },
+    "11": {
+      "instances": 96,
+      "successes": 73,
+      "success_rate": 0.7604166666666666,
+      "mean_tokens": 829.6875,
+      "mean_output_tokens": 199.98958333333334,
+      "mask_counts": {
+        "00": 0,
+        "10": 0,
+        "01": 0,
+        "11": 96
+      }
+    }
+  },
+  "test_gate": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 242.23958333333334,
+    "mean_output_tokens": 79.375,
+    "mask_counts": {
+      "00": 85,
+      "10": 11,
+      "01": 0,
+      "11": 0
+    }
+  },
+  "single_skip_gate_selected_only_on_dev": {
+    "pass_mask": "01",
+    "fail_mask": "10",
+    "length_cutoff": 1000000000
+  },
+  "test_single_skip_gate": {
+    "instances": 96,
+    "successes": 73,
+    "success_rate": 0.7604166666666666,
+    "mean_tokens": 499.2291666666667,
+    "mean_output_tokens": 134.4375,
+    "mask_counts": {
+      "00": 0,
+      "10": 11,
+      "01": 85,
+      "11": 0
+    }
+  },
+  "visible_only_gate_selected_only_on_dev": {
+    "pass_mask": "00",
+    "fail_mask": "10",
+    "length_cutoff": 1000000000
+  },
+  "test_visible_only_gate": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 242.23958333333334,
+    "mean_output_tokens": 79.375,
+    "mask_counts": {
+      "00": 85,
+      "10": 11,
+      "01": 0,
+      "11": 0
+    }
+  },
+  "dev_selected_fixed_mask": "10",
+  "test_dev_selected_fixed": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 530.09375,
+    "mean_output_tokens": 133.90625,
+    "mask_counts": {
+      "00": 0,
+      "10": 96,
+      "01": 0,
+      "11": 0
+    }
+  },
+  "oracle_all_four": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 197.8125,
+    "mean_output_tokens": 68.30208333333333,
+    "mask_counts": {
+      "00": 95,
+      "10": 0,
+      "01": 1,
+      "11": 0
+    }
+  },
+  "oracle_preserve_full_all_four": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 197.8125,
+    "mean_output_tokens": 68.30208333333333,
+    "mask_counts": {
+      "00": 95,
+      "10": 0,
+      "01": 1,
+      "11": 0
+    }
+  },
+  "oracle_at_most_one_skip": {
+    "instances": 96,
+    "successes": 75,
+    "success_rate": 0.78125,
+    "mean_tokens": 494.59375,
+    "mean_output_tokens": 133.83333333333334,
+    "mask_counts": {
+      "00": 0,
+      "10": 2,
+      "01": 94,
+      "11": 0
+    }
+  },
+  "oracle_preserve_full_at_most_one_skip": {
+    "instances": 96,
+    "successes": 73,
+    "success_rate": 0.7604166666666666,
+    "mean_tokens": 493.9895833333333,
+    "mean_output_tokens": 133.94791666666666,
+    "mask_counts": {
+      "00": 0,
+      "10": 0,
+      "01": 96,
+      "11": 0
+    }
+  },
+  "test_nonzero_interaction": 1,
+  "test_full_correct_but_double_skip_wrong": 1,
+  "test_full_wrong_but_double_skip_correct": 2,
+  "gate_minus_full_success_cluster_ci95": [
+    0.0,
+    0.052083333333333336
+  ],
+  "full_minus_gate_tokens_cluster_ci95": [
+    541.1140625,
+    635.0596354166665
+  ],
+  "all_requests_total_input_tokens": 163911,
+  "all_requests_total_output_tokens": 47162,
+  "limitations": [
+    "exploratory; 48 test tasks; no rare-risk guarantee",
+    "single 7B code model and short MBPP+ tasks",
+    "oracle uses hidden labels and is not a deployable policy",
+    "token totals include input and output; wall latency is not token count"
+  ]
+}

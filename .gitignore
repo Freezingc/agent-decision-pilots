@@ -1,0 +1,9 @@
+.local/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+artifacts/**/raw-downloads/
+artifacts/**/responses*.jsonl
+artifacts/**/requests*.jsonl
+!artifacts/p3/responses-*.jsonl

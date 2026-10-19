@@ -1,0 +1,18 @@
+{
+  "source-recovery.py": {
+    "bytes": 20039,
+    "sha256": "5551ef636c4efa6a27336a4e703a29ed1684147772f9ca5e0473790655bf1de2"
+  },
+  "source-test_recovery.py": {
+    "bytes": 5129,
+    "sha256": "b565bd05c4b40b2286371918811a860cc1c03ea8324322c0a20f00fb1f76a07c"
+  },
+  "verification.json": {
+    "bytes": 550,
+    "sha256": "95986c993660e1c48df68ddf61334b0458665366dcd03cc9e416d6bb943f37df"
+  },
+  "decision.json": {
+    "bytes": 594,
+    "sha256": "b8ef4d0be37b5c0bafdb82d022e005b28ffdf81ff5352a63e867938cfa55daee"
+  }
+}

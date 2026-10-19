@@ -1,0 +1,39 @@
+{
+  "status": "matched",
+  "verified_utc": "2026-10-19T15:50:06.966348+00:00",
+  "trajectories": 50400,
+  "summary_groups": 84,
+  "bayes_steps_recomputed": 304221,
+  "risk_gate_decisions_verified": 33252,
+  "manifest_hashes_match": true,
+  "source_hashes_match_before_run": true,
+  "actual_transition_causality_and_costs_match": true,
+  "posterior_values_and_model_weights_mass_match": true,
+  "paired_seeds_and_initial_states_match": true,
+  "summary_recomputed_from_traces": true,
+  "robust_vs_quality_fixed_identical_action_observation_paths": {
+    "low-fault_check-0.1_nominal": 0,
+    "low-fault_check-0.1_long": 0,
+    "low-fault_check-0.1_outside": 0,
+    "low-fault_check-1_nominal": 600,
+    "low-fault_check-1_long": 600,
+    "low-fault_check-1_outside": 600,
+    "medium-fault_check-0.1_nominal": 0,
+    "medium-fault_check-0.1_long": 0,
+    "medium-fault_check-0.1_outside": 0,
+    "medium-fault_check-1_nominal": 600,
+    "medium-fault_check-1_long": 600,
+    "medium-fault_check-1_outside": 600
+  },
+  "max_actual_conditional_risks_all_regimes_including_outside": {
+    "robust_h4": {
+      "retry": 0.878052126618477,
+      "accept_missing": 0.04994381321013864
+    },
+    "nominal_gated_h4": {
+      "retry": 0.8952885748709596,
+      "accept_missing": 0.04994381321013864
+    }
+  },
+  "limits": "No empirical guarantee; declared model risk bound does not hold outside set; Bayes update checked against exact frozen simulator only."
+}

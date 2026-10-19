@@ -1,0 +1,18 @@
+{
+  "conditions": 45,
+  "episode_rows_audited": 311040,
+  "exact_planner_myopic_equal_conditions": 43,
+  "maximum_exact_planner_minus_myopic": 0.0007703703703704212,
+  "policies": 9,
+  "replay_exact_files": {
+    "cases.json": "2913b3a36194c2e8d9e4bed9324540cf4ef40de3f58fb34b7cf81aab2e283202",
+    "design.json": "d1518013f1b495c0842a3d41cadec2c17c0fe06ea6e7510c14fa9b7bbd903903",
+    "dev_grid_scores.json": "a364ab4095bfd05f28b26398196515269583f48089864245fc8f5351a1f7345c",
+    "episodes.jsonl.gz": "a478e8ed151d1de05e95b6e17417584568b98d3386699b70c9621c12f2701b28",
+    "summary.json": "e4192c6d6118d9fcd8db033c11ec74b3c5d7e2e370c3539a76830a3c18c60603",
+    "transfer_dev_selection.json": "47b3bde9cb1c872ad343cb61e3e476e9a3ae8dc3d7a80d907d81da0b1a007d95"
+  },
+  "scope": "Stored manifest, paired observations, posterior updates, costs, rewards, aggregate means, exact replay; no independent model/theorem/LLM validation",
+  "status": "verified_simulation_only",
+  "test_cases_per_condition": 768
+}

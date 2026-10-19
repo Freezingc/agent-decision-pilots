@@ -1,0 +1,36 @@
+{
+  "evidence": "pre-hidden-evaluation audit",
+  "stages": {
+    "draft": {
+      "count": 192,
+      "syntax_errors": 0,
+      "truncated": 0,
+      "input_tokens": 24624,
+      "output_tokens": 11761
+    },
+    "repair": {
+      "count": 192,
+      "syntax_errors": 0,
+      "truncated": 0,
+      "input_tokens": 51058,
+      "output_tokens": 11858
+    },
+    "review_base": {
+      "count": 192,
+      "syntax_errors": 0,
+      "truncated": 0,
+      "input_tokens": 44066,
+      "output_tokens": 11792
+    },
+    "review_repair": {
+      "count": 192,
+      "syntax_errors": 0,
+      "truncated": 0,
+      "input_tokens": 44163,
+      "output_tokens": 11751
+    }
+  },
+  "total_receipts": 768,
+  "model_calls_paid": 0,
+  "common_review_rng_verified": true
+}

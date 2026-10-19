@@ -1,0 +1,3 @@
+# Preserve measured artifacts byte-for-byte; Python csv uses valid CRLF rows.
+artifacts/** -text
+*.csv whitespace=cr-at-eol

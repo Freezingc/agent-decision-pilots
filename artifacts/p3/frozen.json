@@ -1,0 +1,20 @@
+{
+  "protocol": "pilot-v0",
+  "count": 96,
+  "seeds": [
+    0,
+    1
+  ],
+  "source_public_views": "/home/zhangyudong/FDU/paper/Eval/.local/dataset/public/views.jsonl",
+  "source_sha256": "cd695e9cdb25aa5c364bbc7fd9d0e88b244281bac1a37b4a85fac6a1cc70df7a",
+  "tasks_hash": "f5bc178e86be65cc726c030e324ef8a94a89110dd18039bdcfd38d4da820a9de",
+  "system_hash": "17a0d4da127917e4b2b1ced20915c39611b42180f1b986600f833d6673d0778b",
+  "workflow_source_hash": "c6bb5016dfb9110202cd26ba1363d73793ad89423864665cf9b691eba6bdf68d",
+  "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "model_revision": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "max_tokens": 384,
+  "notes": "Frozen before generation. Labels remain outside generation process.",
+  "amendment": "Before hidden evaluation: final review branches share RNG seeds to reduce sampling confounding. Draft/repair streams and task split unchanged. Interrupted precursor archived locally; no labels accessed."
+}

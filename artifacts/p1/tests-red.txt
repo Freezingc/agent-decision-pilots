@@ -1,0 +1,104 @@
+test_bayes_negative_check_has_hand_computed_posterior (test_recovery.RecoveryModelTests.test_bayes_negative_check_has_hand_computed_posterior) ... FAIL
+test_delay_advances_before_check_and_stale_read_is_false_negative_only (test_recovery.RecoveryModelTests.test_delay_advances_before_check_and_stale_read_is_false_negative_only) ... FAIL
+test_enumerated_action_probabilities_conserve_mass (test_recovery.RecoveryModelTests.test_enumerated_action_probabilities_conserve_mass) ... FAIL
+test_exact_policy_tree_matches_manual_one_step_diagnosis (test_recovery.RecoveryModelTests.test_exact_policy_tree_matches_manual_one_step_diagnosis) ... FAIL
+test_oracle_expected_value_is_lower_bound_on_loss (test_recovery.RecoveryModelTests.test_oracle_expected_value_is_lower_bound_on_loss) ... FAIL
+test_paired_seed_replays_identical_trajectory (test_recovery.RecoveryModelTests.test_paired_seed_replays_identical_trajectory) ... FAIL
+test_positive_check_does_not_reveal_execution_multiplicity (test_recovery.RecoveryModelTests.test_positive_check_does_not_reveal_execution_multiplicity) ... FAIL
+test_retry_of_executed_operation_causes_irreversible_duplicate (test_recovery.RecoveryModelTests.test_retry_of_executed_operation_causes_irreversible_duplicate) ... FAIL
+test_terminal_scoring_distinguishes_missing_duplicate_and_abstention (test_recovery.RecoveryModelTests.test_terminal_scoring_distinguishes_missing_duplicate_and_abstention) ... FAIL
+test_wait_and_check_cannot_execute_operation (test_recovery.RecoveryModelTests.test_wait_and_check_cannot_execute_operation) ... FAIL
+test_zero_horizon_planner_uses_belief_not_hidden_state (test_recovery.RecoveryModelTests.test_zero_horizon_planner_uses_belief_not_hidden_state) ... FAIL
+
+======================================================================
+FAIL: test_bayes_negative_check_has_hand_computed_posterior (test_recovery.RecoveryModelTests.test_bayes_negative_check_has_hand_computed_posterior)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_delay_advances_before_check_and_stale_read_is_false_negative_only (test_recovery.RecoveryModelTests.test_delay_advances_before_check_and_stale_read_is_false_negative_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_enumerated_action_probabilities_conserve_mass (test_recovery.RecoveryModelTests.test_enumerated_action_probabilities_conserve_mass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_exact_policy_tree_matches_manual_one_step_diagnosis (test_recovery.RecoveryModelTests.test_exact_policy_tree_matches_manual_one_step_diagnosis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_oracle_expected_value_is_lower_bound_on_loss (test_recovery.RecoveryModelTests.test_oracle_expected_value_is_lower_bound_on_loss)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_paired_seed_replays_identical_trajectory (test_recovery.RecoveryModelTests.test_paired_seed_replays_identical_trajectory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_positive_check_does_not_reveal_execution_multiplicity (test_recovery.RecoveryModelTests.test_positive_check_does_not_reveal_execution_multiplicity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_retry_of_executed_operation_causes_irreversible_duplicate (test_recovery.RecoveryModelTests.test_retry_of_executed_operation_causes_irreversible_duplicate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_terminal_scoring_distinguishes_missing_duplicate_and_abstention (test_recovery.RecoveryModelTests.test_terminal_scoring_distinguishes_missing_duplicate_and_abstention)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_wait_and_check_cannot_execute_operation (test_recovery.RecoveryModelTests.test_wait_and_check_cannot_execute_operation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+======================================================================
+FAIL: test_zero_horizon_planner_uses_belief_not_hidden_state (test_recovery.RecoveryModelTests.test_zero_horizon_planner_uses_belief_not_hidden_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery.py", line 13, in setUp
+    self.assertIsNotNone(r, "the recovery POMDP module is not implemented")
+AssertionError: unexpectedly None : the recovery POMDP module is not implemented
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+FAILED (failures=11)

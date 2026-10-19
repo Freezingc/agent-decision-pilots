@@ -1,0 +1,41 @@
+test_accept_has_explicit_false_completion_boundary (test_recovery_robust.RobustRecoveryTests.test_accept_has_explicit_false_completion_boundary) ... ok
+test_bayes_conditions_each_model_and_model_weights_on_history (test_recovery_robust.RobustRecoveryTests.test_bayes_conditions_each_model_and_model_weights_on_history) ... ok
+test_fixed_rules_include_direct_accept_and_early_abstention (test_recovery_robust.RobustRecoveryTests.test_fixed_rules_include_direct_accept_and_early_abstention) ... ok
+test_minimax_terminal_value_matches_manual_worst_case (test_recovery_robust.RobustRecoveryTests.test_minimax_terminal_value_matches_manual_worst_case) ... ok
+test_nominal_and_long_models_update_on_same_visible_history (test_recovery_robust.RobustRecoveryTests.test_nominal_and_long_models_update_on_same_visible_history) ... ok
+test_point_model_ablation_has_identical_risk_gates_and_retry_budget (test_recovery_robust.RobustRecoveryTests.test_point_model_ablation_has_identical_risk_gates_and_retry_budget) ... ERROR
+test_retry_is_once_even_after_posterior_is_safe (test_recovery_robust.RobustRecoveryTests.test_retry_is_once_even_after_posterior_is_safe) ... ok
+test_simulation_preserves_v1_counterfactual_randomization (test_recovery_robust.RobustRecoveryTests.test_simulation_preserves_v1_counterfactual_randomization) ... ok
+test_worst_case_gate_never_averages_away_bad_model (test_recovery_robust.RobustRecoveryTests.test_worst_case_gate_never_averages_away_bad_model) ... ok
+
+======================================================================
+ERROR: test_point_model_ablation_has_identical_risk_gates_and_retry_budget (test_recovery_robust.RobustRecoveryTests.test_point_model_ablation_has_identical_risk_gates_and_retry_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_recovery_robust.py", line 69, in test_point_model_ablation_has_identical_risk_gates_and_retry_budget
+    result=q.simulate(self.models[0],planner,41,self.models)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 133, in simulate
+    if isinstance(policy,RobustPlanner): action=policy.choose(b,history,remaining)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 88, in choose
+    return self.value(b,min(remaining,self.lookahead),sum(x['action']=='retry' for x in history))[1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 86, in value
+    def value(self,b,horizon,retries): return self._cached(b.key(),horizon,retries)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 72, in _value
+    candidates=[(max(sum(prob*v1.terminal_loss(s,'abandon',self.models[i]) for s,prob in b.beliefs[i].items()) for i in active),'abandon')]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 72, in <genexpr>
+    candidates=[(max(sum(prob*v1.terminal_loss(s,'abandon',self.models[i]) for s,prob in b.beliefs[i].items()) for i in active),'abandon')]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/recovery_robust.py", line 72, in <genexpr>
+    candidates=[(max(sum(prob*v1.terminal_loss(s,'abandon',self.models[i]) for s,prob in b.beliefs[i].items()) for i in active),'abandon')]
+                                                           ~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+FAILED (errors=1)

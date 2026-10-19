@@ -1,0 +1,21 @@
+{
+  "status": "matched",
+  "episodes": 50400,
+  "groups": 84,
+  "Bayes_steps": 304221,
+  "gated_decisions": 33252,
+  "max_true_conditional_risks_by_regime": {
+    "nominal": {
+      "retry_executed": 0.0017796842201332464,
+      "accept_missing": 0.04994381321013864
+    },
+    "long": {
+      "retry_executed": 0.0027262614657986364,
+      "accept_missing": 0.04994381321013864
+    },
+    "outside": {
+      "retry_executed": 0.878052126618477,
+      "accept_missing": 0.02011109599267452
+    }
+  }
+}

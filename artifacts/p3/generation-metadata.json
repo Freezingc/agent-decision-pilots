@@ -1,0 +1,22 @@
+{
+  "backend_version": "hf-autoregressive-v1",
+  "torch_version": "2.10.0+cu126",
+  "transformers_version": "5.13.0",
+  "model_path": "/mnt/drug_db/zhangyudong/cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-7B-Instruct/snapshots/c03e6d358207e414f1eca0bb1891e29f1db0e242",
+  "batch_size": 16,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "max_tokens": 384,
+  "max_model_len": 8192,
+  "dtype": "bfloat16",
+  "device": "cuda:0",
+  "independent_per_request_rng": true,
+  "output_tokens_include_eos": true,
+  "vllm_output_equivalence": false,
+  "attention_implementation": "sdpa",
+  "position_ids": "attention_mask.cumsum(-1)-1; current token position for cached decode",
+  "top_p_boundary_tie_break": "descending logit then ascending token id",
+  "wall_seconds": 120.43985558208078,
+  "actual_requests": 768,
+  "hidden_labels_available": false
+}

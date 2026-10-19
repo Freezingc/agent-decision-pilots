@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-19T15:39:05.459307+00:00",
+  "phase": "after inference complete, before inspecting any hidden evaluation result",
+  "notes": [
+    "frozen.json records generation design; analysis was strengthened before reading outcomes with a matched single-skip gate and visible-only rule",
+    "source amendment: common final-review RNG before review generation; prior request/response files archived, not overwritten",
+    "token savings exclude execution CPU and gate CPU; do not claim monetary or latency gains"
+  ],
+  "files": {
+    "src/agent_pilots/workflow.py": "c9fc76ee72c9fcfe555cb532aeef4205b473ec3f064974bff7b469998ddf8fce",
+    "src/agent_pilots/llm.py": "71bacf9fee74306e019a2efbdce9f4c16ddc3b883130e8460662850c6b5d2228",
+    "src/agent_pilots/hf_backend.py": "3e3e0418b0b528a18c544b456d75d172eec0ef8aac8e3d768778cece3d081bac",
+    "src/agent_pilots/evaluation.py": "c3d1e464db6294e09c7ac77476a79f1462b0ed9653e7a98965516fb1cf280742",
+    "src/agent_pilots/execution.py": "3e4ac0418013a6051dc87b3a770b5360b9a4ff8038ce0a0ba704f00bc1bce761",
+    "src/agent_pilots/_evalplus_worker.py": "4c1d5e673b8ebae0b7ccf71ea97ffa5ba0854741e30129be0d73b63a54ed85d0",
+    "src/agent_pilots/_sandbox_worker.py": "62561cd3d44862836447a18f27bbb15def346340d45ddf8f4266d224f1132c24",
+    "docs/protocol-v0.md": "c33b2110cc57f23fd73cec69b04f8eea1d3d8d359e82c695c8c7bc167b790fb6"
+  }
+}

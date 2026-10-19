@@ -1,0 +1,32 @@
+[
+  {
+    "name": "hf_backend.py",
+    "source": "/home/zhangyudong/FDU/paper/Eval/src/tgselect/hf_backend.py",
+    "sha256": "3e3e0418b0b528a18c544b456d75d172eec0ef8aac8e3d768778cece3d081bac",
+    "purpose": "reuse prior project infrastructure; no experimental labels or results copied"
+  },
+  {
+    "name": "execution.py",
+    "source": "/home/zhangyudong/FDU/paper/Eval/src/tgselect/execution.py",
+    "sha256": "3e4ac0418013a6051dc87b3a770b5360b9a4ff8038ce0a0ba704f00bc1bce761",
+    "purpose": "reuse prior project infrastructure; no experimental labels or results copied"
+  },
+  {
+    "name": "_sandbox_worker.py",
+    "source": "/home/zhangyudong/FDU/paper/Eval/src/tgselect/_sandbox_worker.py",
+    "sha256": "62561cd3d44862836447a18f27bbb15def346340d45ddf8f4266d224f1132c24",
+    "purpose": "reuse prior project infrastructure; no experimental labels or results copied"
+  },
+  {
+    "name": "evaluation.py",
+    "source": "/home/zhangyudong/FDU/paper/Eval/src/tgselect/evaluation.py",
+    "sha256": "c3d1e464db6294e09c7ac77476a79f1462b0ed9653e7a98965516fb1cf280742",
+    "purpose": "reuse prior project infrastructure; no experimental labels or results copied"
+  },
+  {
+    "name": "_evalplus_worker.py",
+    "source": "/home/zhangyudong/FDU/paper/Eval/src/tgselect/_evalplus_worker.py",
+    "sha256": "4c1d5e673b8ebae0b7ccf71ea97ffa5ba0854741e30129be0d73b63a54ed85d0",
+    "purpose": "reuse prior project infrastructure; no experimental labels or results copied"
+  }
+]

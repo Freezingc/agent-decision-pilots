@@ -1,0 +1,18 @@
+{
+  "schema": "p1-v1",
+  "recommendation": "stop_before_real_agent_expansion",
+  "evidence": "synthetic_only",
+  "reason": [
+    "limited simple-rule family does not establish irreducible planning gain",
+    "known simulator parameters; no parameter estimation",
+    "heldout delay shift can cause 41.5%-58.33% duplicate rates",
+    "some gains trade new false-completion risk"
+  ],
+  "test_results_used_to_retune": false,
+  "full_test_trajectories": 64800,
+  "dev_episodes": 46800,
+  "unit_tests_passed": 13,
+  "gpu_used": false,
+  "paid_api_cost": 0,
+  "elapsed_seconds": 7.460369810927659
+}

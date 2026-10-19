@@ -1,0 +1,10 @@
+{
+  "status": "quarantined",
+  "reason": "Initial exact-string anchoring admitted birthplace as residence and third-person preferences; relation labels not reliably supported by prompt text. No model efficacy conclusion permitted.",
+  "original_manifest_sha256": "b346e24a2297a212f27b01f3df0dcfa62f23d9b4d6bd066913543080cc2135af",
+  "original_n": 104,
+  "replacement": "frozen-v1/manifest.json",
+  "replacement_n": 84,
+  "revised_before_replacement_inference": true,
+  "manual_review_scope": "All 84 replacement prompt pairs inspected; first person residence changes / condition-supported first person preferences. Same-context native source audit, not blind independent annotation."
+}

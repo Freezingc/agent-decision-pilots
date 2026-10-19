@@ -1,0 +1,26 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<01:31,  3.68it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:05, 57.04it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:02, 107.43it/s]Loading weights:  16%|█▌        | 54/339 [00:00<00:02, 114.17it/s]Loading weights:  22%|██▏       | 76/339 [00:00<00:01, 140.06it/s]Loading weights:  29%|██▉       | 100/339 [00:00<00:01, 162.35it/s]Loading weights:  35%|███▍      | 118/339 [00:00<00:01, 163.77it/s]Loading weights:  40%|████      | 137/339 [00:01<00:01, 168.46it/s]Loading weights:  47%|████▋     | 160/339 [00:01<00:00, 182.36it/s]Loading weights:  53%|█████▎    | 179/339 [00:01<00:00, 176.06it/s]Loading weights:  58%|█████▊    | 197/339 [00:01<00:00, 168.21it/s]Loading weights:  63%|██████▎   | 215/339 [00:01<00:00, 170.68it/s]Loading weights:  69%|██████▊   | 233/339 [00:01<00:00, 168.05it/s]Loading weights:  76%|███████▌  | 256/339 [00:01<00:00, 178.52it/s]Loading weights:  81%|████████  | 274/339 [00:01<00:00, 171.63it/s]Loading weights:  86%|████████▋ | 293/339 [00:01<00:00, 169.60it/s]Loading weights:  92%|█████████▏| 311/339 [00:02<00:00, 171.94it/s]Loading weights:  97%|█████████▋| 329/339 [00:02<00:00, 167.69it/s]Loading weights: 100%|██████████| 339/339 [00:02<00:00, 155.01it/s]
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 16, "total": 192, "max_tokens": 384, "output_tokens": 867, "seconds": 3.92}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 32, "total": 192, "max_tokens": 384, "output_tokens": 763, "seconds": 2.94}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 48, "total": 192, "max_tokens": 384, "output_tokens": 838, "seconds": 3.88}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 64, "total": 192, "max_tokens": 384, "output_tokens": 1010, "seconds": 4.73}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 80, "total": 192, "max_tokens": 384, "output_tokens": 939, "seconds": 2.83}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 96, "total": 192, "max_tokens": 384, "output_tokens": 917, "seconds": 2.71}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 112, "total": 192, "max_tokens": 384, "output_tokens": 1100, "seconds": 3.84}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 128, "total": 192, "max_tokens": 384, "output_tokens": 788, "seconds": 2.35}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 144, "total": 192, "max_tokens": 384, "output_tokens": 1182, "seconds": 4.54}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 160, "total": 192, "max_tokens": 384, "output_tokens": 1069, "seconds": 4.89}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 176, "total": 192, "max_tokens": 384, "output_tokens": 1202, "seconds": 5.0}
+{"event": "batch", "output": "artifacts/p3/responses-draft.jsonl", "done": 192, "total": 192, "max_tokens": 384, "output_tokens": 1086, "seconds": 5.2}
+{"event": "stage_complete", "stage": "draft", "elapsed": 64.2878973162733}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 16, "total": 192, "max_tokens": 384, "output_tokens": 867, "seconds": 3.94}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 32, "total": 192, "max_tokens": 384, "output_tokens": 783, "seconds": 3.66}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 48, "total": 192, "max_tokens": 384, "output_tokens": 817, "seconds": 4.53}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 64, "total": 192, "max_tokens": 384, "output_tokens": 1041, "seconds": 5.82}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 80, "total": 192, "max_tokens": 384, "output_tokens": 1002, "seconds": 3.78}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 96, "total": 192, "max_tokens": 384, "output_tokens": 920, "seconds": 3.25}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 112, "total": 192, "max_tokens": 384, "output_tokens": 1105, "seconds": 4.45}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 128, "total": 192, "max_tokens": 384, "output_tokens": 788, "seconds": 2.71}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 144, "total": 192, "max_tokens": 384, "output_tokens": 1199, "seconds": 5.59}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 160, "total": 192, "max_tokens": 384, "output_tokens": 1042, "seconds": 6.02}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 176, "total": 192, "max_tokens": 384, "output_tokens": 1208, "seconds": 6.1}
+{"event": "batch", "output": "artifacts/p3/responses-repair.jsonl", "done": 192, "total": 192, "max_tokens": 384, "output_tokens": 1086, "seconds": 5.88}

@@ -1,0 +1,46 @@
+{
+  "test-trajectories.jsonl.gz": {
+    "bytes": 1364847,
+    "sha256": "26efaa3c97a2801108d02036ceae9ebd08114a1eb1ed2fb39674bce5c2c4ebd4"
+  },
+  "tests-green.txt": {
+    "bytes": 1386,
+    "sha256": "15edfa7543b657dcacbd17d76c9b51865a4f0447fab9d334be6e60a6c8abeee5"
+  },
+  "tests-red.txt": {
+    "bytes": 6035,
+    "sha256": "4925dcd814cfe8f8e87f039066d8653226b7159ee3f458a951d68141a6b9efb9"
+  },
+  "source-recovery.py": {
+    "bytes": 20039,
+    "sha256": "5551ef636c4efa6a27336a4e703a29ed1684147772f9ca5e0473790655bf1de2"
+  },
+  "sources-before-run.json": {
+    "bytes": 626,
+    "sha256": "2a4602a98013a20076d9c824f35722a7dc10739a9d48be73723f6fb98cb7d6b5"
+  },
+  "source-test_recovery_robust.py": {
+    "bytes": 3332,
+    "sha256": "553cf951d4ea1a3de41b6af60a163859ef2c8def2373911d2566da38d4d8c413"
+  },
+  "summary.json": {
+    "bytes": 238555,
+    "sha256": "33b0e8ba11ce3444ae48ce6f1ecb098341393dfe42f7a20438e82b253ef1bd9d"
+  },
+  "source-recovery_robust.py": {
+    "bytes": 15597,
+    "sha256": "a3f56642ded99fc75f8d891231f5f574df4ae81c36f472b9736924813aa63a2a"
+  },
+  "frozen-protocol.json": {
+    "bytes": 3097,
+    "sha256": "97485af37d10efc4787a3d5bfba2a433189f3610134b15c4aa44c5e80a83beca"
+  },
+  "summary.csv": {
+    "bytes": 13262,
+    "sha256": "1c4b273d8e8648e821828b30c90e2293ee5ce5df71075eb703c3b5c35ecd0601"
+  },
+  "dev-selection.json": {
+    "bytes": 792588,
+    "sha256": "12ee417a7540b7aeff9a5314a2dfce16232572799a607971c884e9d0c9fc4b90"
+  }
+}

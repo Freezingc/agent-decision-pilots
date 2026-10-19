@@ -1,0 +1,14 @@
+{
+  "verified_utc": "2026-10-19T15:32:01.974967+00:00",
+  "status": "matched",
+  "trajectory_records": 64800,
+  "condition_method_groups": 108,
+  "test_episodes_per_group": 600,
+  "all_manifest_hashes_verified": true,
+  "per_step_cost_and_causality_verified": true,
+  "terminal_flags_and_loss_verified": true,
+  "summary_recomputed_from_traces": true,
+  "paired_initial_states_and_seeds_verified": true,
+  "posterior_mass_verified": true,
+  "scope": "Synthetic simulator checks only; no empirical certification of stale-read or delay assumptions."
+}

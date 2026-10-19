@@ -1,0 +1,20 @@
+{
+  "scope": "integration audit; not independent scientific validation",
+  "paid_api_calls": 0,
+  "paid_api_cost": 0,
+  "model_requests": 956,
+  "input_tokens": 208105,
+  "output_tokens": 51749,
+  "p3_receipts": 768,
+  "p2_clean_receipts": 84,
+  "p2_quarantined_receipts": 104,
+  "mbppplus_sha256": "b54e762755248ca411b523c917fa9f93c07b5ff2966bf60b3917b853926a3dad",
+  "report_language": "Simplified Chinese",
+  "memory_dialogue_text_version_control": "excluded",
+  "verification_files": {
+    "artifacts/p1/run-v1/verification.json": "95986c993660e1c48df68ddf61334b0458665366dcd03cc9e416d6bb943f37df",
+    "artifacts/p1/robust-v2/verification.json": "c4c92935c826f4430ddd0d396652b3089e09e3862074ac4ef5e1c976e70e62c0",
+    "artifacts/p3/verification.json": "76db004c7448da134b9348f7154afbfe550a9c3914b99290592c21fa9c00f5bb",
+    "artifacts/p4/verification.json": "371e36b720be43759ddbcdfad06aad3d1bbaf91cee44a59804fc026fa76e57fd"
+  }
+}

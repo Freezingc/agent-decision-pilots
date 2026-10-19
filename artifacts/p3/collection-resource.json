@@ -1,0 +1,7 @@
+{
+  "precursor_archived_requests": 0,
+  "precursor_input_tokens": 0,
+  "precursor_output_tokens": 0,
+  "precursor_hidden_evaluation": false,
+  "notes": "Draft/repair caches reused; no duplicate charging for skipped cached inference."
+}

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "cases.json": {
+      "bytes": 220194,
+      "sha256": "2913b3a36194c2e8d9e4bed9324540cf4ef40de3f58fb34b7cf81aab2e283202"
+    },
+    "design.json": {
+      "bytes": 20336,
+      "sha256": "e667832fb9fbbe988b9dce13ed7a77bbdd8301251fb84b15ef1f31a5a5bc83b5"
+    },
+    "dev_grid_scores.json": {
+      "bytes": 842001,
+      "sha256": "a364ab4095bfd05f28b26398196515269583f48089864245fc8f5351a1f7345c"
+    },
+    "episodes.jsonl.gz": {
+      "bytes": 1979369,
+      "sha256": "ff9aec8e405fc383ef0be32a7111739ba2f4643e8ca94146791dbbb209d0905f"
+    },
+    "source.py": {
+      "bytes": 18234,
+      "sha256": "4eda19611f3b318b4ad40083c338afa76206af28f6682dab99a4bce55eecc1b6"
+    },
+    "summary.json": {
+      "bytes": 570499,
+      "sha256": "c97b0cccd45bcd3b36fcdfa30de9a5132a20875dab67e07d972de1cb8840b0b5"
+    },
+    "transfer_dev_selection.json": {
+      "bytes": 17413,
+      "sha256": "47b3bde9cb1c872ad343cb61e3e476e9a3ae8dc3d7a80d907d81da0b1a007d95"
+    }
+  },
+  "seconds": 19.477854722179472,
+  "source_sha256": "4eda19611f3b318b4ad40083c338afa76206af28f6682dab99a4bce55eecc1b6",
+  "status": "completed"
+}
