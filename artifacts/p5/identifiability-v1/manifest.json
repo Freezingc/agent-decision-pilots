@@ -1,0 +1,68 @@
+{
+  "test_identifiability.py": {
+    "bytes": 2558,
+    "sha256": "0068e063b19ea194319adfc385c8f634e7509370ae710b0ce40cb56cd62a3721"
+  },
+  "http-calls.jsonl": {
+    "bytes": 1487277,
+    "sha256": "5bfcbb82406e0c08c9a8136277dd31520d81e4a51b16a4f8a64869af162ea019"
+  },
+  "comparisons.jsonl": {
+    "bytes": 475988,
+    "sha256": "9f3f6f0d80b0ec465ff61212e46d8a40f4b12067736b031f13406b4d852412de"
+  },
+  "state_service.py": {
+    "bytes": 19456,
+    "sha256": "6e29720a86dc8cb56e388a3eeb7c17a583d990018e406b280bb78d004f9659f4"
+  },
+  "p5-identifiability-protocol.md": {
+    "bytes": 2543,
+    "sha256": "abd3b3298f3316d29fbcbaa21099c0fd68b99acc15942ceb7bf219f1c52eed0b"
+  },
+  "summary.json": {
+    "bytes": 2411,
+    "sha256": "1f4c61ad0efb8438c5ad7fd3d4a4a03c19821aa632fd0892fffaabad89744022"
+  },
+  "probe_identifiability.py": {
+    "bytes": 14009,
+    "sha256": "26290d38afd00c470c9e6bcbffa06f1e2a99c2a77da72743e652ca40a4ce4a56"
+  },
+  "frozen.json": {
+    "bytes": 2076,
+    "sha256": "503fe42a58de862c3dd9f9ad33c38568ee20a957711faab1a3b76aa08719db71"
+  },
+  "mechanism-cases.json": {
+    "bytes": 49226,
+    "sha256": "bad7da9e2f278dbde6b0da7469d06fdf797d7825438a3ed0e6bc2909085e55af"
+  },
+  "service.sqlite": {
+    "bytes": 7376896,
+    "sha256": "03ed7f167cb9921e8bcf693b5f775dd2bd8640728b8e4082d829cbd984e622e9",
+    "archived_as": "service.sqlite.gz"
+  },
+  "trajectories.jsonl.gz": {
+    "bytes": 427567,
+    "sha256": "81efb681f1308ac124e963fcb9eeb3d560f913c2b78f5ced1f6cbf517369e94c"
+  },
+  "service.sqlite.gz": {
+    "bytes": 1770143,
+    "sha256": "f1b700abc2ae20cd14fa61a15e1e02f458b818690d97515965554edcd35d0c76",
+    "restores_sha256": "03ed7f167cb9921e8bcf693b5f775dd2bd8640728b8e4082d829cbd984e622e9"
+  },
+  "verification.json": {
+    "bytes": 1293,
+    "sha256": "0b135bf3c1890b328491ccea5a463ce55828b4577d430c200698daff3ddfc5d8"
+  },
+  "verify_and_archive.py": {
+    "bytes": 7753,
+    "sha256": "d83989e0733f4cc717626751d981316a13239e57e523a269b8f99d8d89044a7f"
+  },
+  "execution-evidence.json": {
+    "bytes": 1415,
+    "sha256": "fa4f7f30dd50bc99383745b5551ad291f846a5f99ec60a10d71b9e218c374ce5"
+  },
+  "tests-green.txt": {
+    "bytes": 99,
+    "sha256": "4eb91d715dd6e7abfd581dd07e3ac29dbe51ad0c16cf446eb413169c01bfa743"
+  }
+}

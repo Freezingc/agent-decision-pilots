@@ -1,0 +1,30 @@
+{
+  "schema": "p5-identifiability-verification-v1",
+  "status": "matched",
+  "verified_utc": "2026-10-19T16:37:11.315538+00:00",
+  "main_episodes": 4096,
+  "additional_episodes": 10,
+  "independent_episode_ids": 4106,
+  "paired_public_histories_equal": 2048,
+  "all_non_id_fields_and_list_order_preserved": true,
+  "exact_declared_branch_weights": {
+    "short": "4/5",
+    "ambiguous": "1/5"
+  },
+  "mixture_interpretation": "equal weighted laws by exhaustive paired equality, not empirical 80/20 sample counts",
+  "service_http_requests_measured": 28740,
+  "http_close_requests_unmeasured": 1,
+  "all_http_requests_including_close": 28741,
+  "all_mechanism_controls_match": true,
+  "source_and_protocol_hashes_match": true,
+  "database_integrity": "ok",
+  "database_uncompressed_sha256": "03ed7f167cb9921e8bcf693b5f775dd2bd8640728b8e4082d829cbd984e622e9",
+  "database_uncompressed_bytes": 7376896,
+  "database_archive": "service.sqlite.gz",
+  "database_archive_sha256": "f1b700abc2ae20cd14fa61a15e1e02f458b818690d97515965554edcd35d0c76",
+  "gzip_restore_sha256_matches": true,
+  "actual_run_exit_code": 0,
+  "hard_timeout_seconds": 300,
+  "automatic_retries": 0,
+  "scope": "post hoc explanatory controlled-service mechanism, no learning, natural-sampling or production reliability claim"
+}

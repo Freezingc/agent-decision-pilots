@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-10-19T16:40:45.185956+00:00",
+  "status": "PASS",
+  "bundle_checks": [
+    {
+      "run": "run-v1",
+      "manifest_entries": 13,
+      "all_hashes_match": true,
+      "gzip_restores_original_database": true
+    },
+    {
+      "run": "identifiability-v1",
+      "manifest_entries": 16,
+      "all_hashes_match": true,
+      "gzip_restores_original_database": true
+    }
+  ],
+  "main_experiment": {
+    "episodes": 7650,
+    "independent_checks": 515602,
+    "model_service_disagreements": 0
+  },
+  "probe": {
+    "episodes": 4106,
+    "unique_episode_ids": 4106,
+    "independently_renormalized_pairs_equal": 2048,
+    "semantic_responses_only": true
+  },
+  "formal_runs_total_episodes": 11756,
+  "formal_runs_action_http_requests": 62012,
+  "formal_runs_all_http_including_close": 85526,
+  "llm_requests": 0,
+  "paid_api_requests": 0,
+  "gpu_used": false,
+  "full_test_suite": {
+    "command": "/home/zhangyudong/FDU/paper/Eval/.local/eval-venv/bin/python -m pytest -q",
+    "exit_code": 0,
+    "result": "93 passed in 1.93s",
+    "observed_tool_session": 3160
+  },
+  "report_sha256": {
+    "p5-protocol.md": "26d81050bc3fed17e5790bdc46125bfe3367239c81cc8ac1268d2ff2cd97d6b6",
+    "p5-notes.md": "1375b1079beece9fd868baa668f9a183170aed66e38fa9068d75a095454a9e3e",
+    "p5-source-audit.md": "560f426bb4e2986ca801ca99d9898d2b9b8b3e440b30a945f4c9cef04018d419",
+    "p5-identifiability-protocol.md": "abd3b3298f3316d29fbcbaa21099c0fd68b99acc15942ceb7bf219f1c52eed0b",
+    "p5-review.md": "d9a6c54092e016c1395f1b7745a974072f5d430a306dbc98debeb9abbf7d56a8"
+  },
+  "scope": "Controlled loopback service with logical delays; archive verification is not another independent task sample."
+}

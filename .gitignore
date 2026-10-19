@@ -7,3 +7,6 @@ artifacts/**/raw-downloads/
 artifacts/**/responses*.jsonl
 artifacts/**/requests*.jsonl
 !artifacts/p3/responses-*.jsonl
+artifacts/p5/**/service.sqlite
+artifacts/p5/**/service.sqlite-wal
+artifacts/p5/**/service.sqlite-shm

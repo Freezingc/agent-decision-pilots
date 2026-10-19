@@ -1,0 +1,3660 @@
+{
+  "conditions": {
+    "nominal/atomic/status-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.57,
+        "ticks": 2.9124999999999996,
+        "loss": 2.57
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 2.2439999999999993,
+        "ticks": 1.7199999999999998,
+        "loss": 11.619
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.9219999999999997,
+        "ticks": 2.3724999999999996,
+        "loss": 2.9219999999999997
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.296549999999999,
+        "ticks": 2.9064999999999994,
+        "loss": 4.296549999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/atomic/status-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.57,
+        "ticks": 2.9124999999999996,
+        "loss": 2.57
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 2.2439999999999993,
+        "ticks": 1.7199999999999998,
+        "loss": 11.619
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.9219999999999997,
+        "ticks": 2.3724999999999996,
+        "loss": 2.9219999999999997
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.296549999999999,
+        "ticks": 2.9064999999999994,
+        "loss": 4.296549999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/atomic/status-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.57,
+        "ticks": 2.9124999999999996,
+        "loss": 2.57
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 2.2439999999999993,
+        "ticks": 1.7199999999999998,
+        "loss": 11.619
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.9219999999999997,
+        "ticks": 2.3724999999999996,
+        "loss": 2.9219999999999997
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.296549999999999,
+        "ticks": 2.9064999999999994,
+        "loss": 4.296549999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/atomic/primary-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 4.554,
+        "ticks": 1.7199999999999998,
+        "loss": 13.929
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.803675000000001,
+        "ticks": 3.1064999999999996,
+        "loss": 4.803675000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/atomic/primary-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 4.554,
+        "ticks": 1.7199999999999998,
+        "loss": 13.929
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.803675000000001,
+        "ticks": 3.1064999999999996,
+        "loss": 4.803675000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/atomic/primary-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.8125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.1875,
+        "model_miss": 0.0,
+        "cost": 4.554,
+        "ticks": 1.7199999999999998,
+        "loss": 13.929
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.803675000000001,
+        "ticks": 3.1064999999999996,
+        "loss": 4.803675000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/status-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.219400000000001,
+        "ticks": 4.1145000000000005,
+        "loss": 4.219400000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 7.129349999999999,
+        "ticks": 3.8905000000000003,
+        "loss": 7.129349999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/status-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.219400000000001,
+        "ticks": 4.1145000000000005,
+        "loss": 4.219400000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 7.129349999999999,
+        "ticks": 3.8905000000000003,
+        "loss": 7.129349999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/status-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.219400000000001,
+        "ticks": 4.1145000000000005,
+        "loss": 4.219400000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 7.129349999999999,
+        "ticks": 3.8905000000000003,
+        "loss": 7.129349999999999
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/primary-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.3336749999999995,
+        "ticks": 3.5064999999999995,
+        "loss": 5.3336749999999995
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/primary-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.3336749999999995,
+        "ticks": 3.5064999999999995,
+        "loss": 5.3336749999999995
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/lagged/primary-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.3336749999999995,
+        "ticks": 3.5064999999999995,
+        "loss": 5.3336749999999995
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/status-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.4437500000000005,
+        "ticks": 6.937500000000001,
+        "loss": 5.4437500000000005
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 9.3911,
+        "ticks": 3.8579999999999997,
+        "loss": 9.3911
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/status-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.4437500000000005,
+        "ticks": 6.937500000000001,
+        "loss": 5.4437500000000005
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 9.3911,
+        "ticks": 3.8579999999999997,
+        "loss": 9.3911
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/status-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.4437500000000005,
+        "ticks": 6.937500000000001,
+        "loss": 5.4437500000000005
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 7.223999999999999,
+        "ticks": 1.7199999999999998,
+        "loss": 26.599
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.870000000000001,
+        "ticks": 5.350000000000002,
+        "loss": 5.870000000000001
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 9.3911,
+        "ticks": 3.8579999999999997,
+        "loss": 9.3911
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/primary-cheap/reservation": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.021850000000001,
+        "ticks": 3.8579999999999997,
+        "loss": 5.021850000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/primary-cheap/invoice": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.021850000000001,
+        "ticks": 3.8579999999999997,
+        "loss": 5.021850000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "nominal/unavailable/primary-cheap/shipment": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.0737749999999995,
+        "ticks": 6.039500000000001,
+        "loss": 3.0737749999999995
+      },
+      "myopic": {
+        "success": 0.6125,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3875,
+        "model_miss": 0.0,
+        "cost": 3.7539999999999996,
+        "ticks": 1.7199999999999998,
+        "loss": 23.128999999999998
+      },
+      "deadline": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.495,
+        "ticks": 5.350000000000002,
+        "loss": 3.495
+      },
+      "rollout": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4797999999999996,
+        "ticks": 5.519000000000001,
+        "loss": 3.4797999999999996
+      },
+      "posterior": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.021850000000001,
+        "ticks": 3.8579999999999997,
+        "loss": 5.021850000000001
+      },
+      "fixed-loss": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "fixed-quality": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      },
+      "idempotent-retry": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2000000000000002,
+        "ticks": 0.9999999999999998,
+        "loss": 1.2000000000000002
+      }
+    },
+    "shifted/atomic/status-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.432499999999999,
+        "ticks": 5.9750000000000005,
+        "loss": 3.432499999999999
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 1.4714999999999998,
+        "ticks": 1.2075000000000005,
+        "loss": 34.5965
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.96,
+        "ticks": 5.300000000000001,
+        "loss": 3.96
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 10.985249999999997,
+        "ticks": 5.635625000000001,
+        "loss": 10.985249999999997
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.4374999999999999,
+        "model_miss": 0.4374999999999999,
+        "cost": 2.8575000000000004,
+        "ticks": 4.2250000000000005,
+        "loss": 24.732499999999998
+      }
+    },
+    "shifted/atomic/status-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.432499999999999,
+        "ticks": 5.9750000000000005,
+        "loss": 3.432499999999999
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 1.4714999999999998,
+        "ticks": 1.2075000000000005,
+        "loss": 34.5965
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.96,
+        "ticks": 5.300000000000001,
+        "loss": 3.96
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 10.985249999999997,
+        "ticks": 5.635625000000001,
+        "loss": 10.985249999999997
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.4374999999999999,
+        "model_miss": 0.4374999999999999,
+        "cost": 2.8575000000000004,
+        "ticks": 4.2250000000000005,
+        "loss": 24.732499999999998
+      }
+    },
+    "shifted/atomic/status-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.432499999999999,
+        "ticks": 5.9750000000000005,
+        "loss": 3.432499999999999
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 1.4714999999999998,
+        "ticks": 1.2075000000000005,
+        "loss": 34.5965
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.96,
+        "ticks": 5.300000000000001,
+        "loss": 3.96
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 10.985249999999997,
+        "ticks": 5.635625000000001,
+        "loss": 10.985249999999997
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.4374999999999999,
+        "model_miss": 0.4374999999999999,
+        "cost": 2.8575000000000004,
+        "ticks": 4.2250000000000005,
+        "loss": 24.732499999999998
+      }
+    },
+    "shifted/atomic/primary-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 3.45275,
+        "ticks": 1.2075000000000005,
+        "loss": 36.57775000000001
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 11.003375,
+        "ticks": 5.835625,
+        "loss": 11.003375
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/atomic/primary-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 3.45275,
+        "ticks": 1.2075000000000005,
+        "loss": 36.57775000000001
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 11.003375,
+        "ticks": 5.835625,
+        "loss": 11.003375
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/atomic/primary-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.3375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.6625,
+        "model_miss": 0.0,
+        "cost": 3.45275,
+        "ticks": 1.2075000000000005,
+        "loss": 36.57775000000001
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 11.003375,
+        "ticks": 5.835625,
+        "loss": 11.003375
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/lagged/status-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.075,
+        "ticks": 8.625,
+        "loss": 6.075
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 14.568437499999995,
+        "ticks": 7.107812499999999,
+        "loss": 14.568437499999995
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.0355,
+        "ticks": 7.265,
+        "loss": 91.53550000000001
+      }
+    },
+    "shifted/lagged/status-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.075,
+        "ticks": 8.625,
+        "loss": 6.075
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 14.568437499999995,
+        "ticks": 7.107812499999999,
+        "loss": 14.568437499999995
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.0355,
+        "ticks": 7.265,
+        "loss": 91.53550000000001
+      }
+    },
+    "shifted/lagged/status-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.075,
+        "ticks": 8.625,
+        "loss": 6.075
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      },
+      "posterior": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 14.568437499999995,
+        "ticks": 7.107812499999999,
+        "loss": 14.568437499999995
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.0355,
+        "ticks": 7.265,
+        "loss": 91.53550000000001
+      }
+    },
+    "shifted/lagged/primary-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.49374999999999986,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.50625,
+        "model_miss": 0.0,
+        "cost": 13.586074999999997,
+        "ticks": 7.572875,
+        "loss": 38.89857499999999
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/lagged/primary-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.49374999999999986,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.50625,
+        "model_miss": 0.0,
+        "cost": 13.586074999999997,
+        "ticks": 7.572875,
+        "loss": 38.89857499999999
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/lagged/primary-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.49374999999999986,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.50625,
+        "model_miss": 0.0,
+        "cost": 13.586074999999997,
+        "ticks": 7.572875,
+        "loss": 38.89857499999999
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/unavailable/status-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 18.647124999999992,
+        "ticks": 7.585625,
+        "loss": 34.272125
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.674374999999999,
+        "ticks": 8.41875,
+        "loss": 92.174375
+      }
+    },
+    "shifted/unavailable/status-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 18.647124999999992,
+        "ticks": 7.585625,
+        "loss": 34.272125
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.674374999999999,
+        "ticks": 8.41875,
+        "loss": 92.174375
+      }
+    },
+    "shifted/unavailable/status-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 4.2315000000000005,
+        "ticks": 1.0075,
+        "loss": 47.3565
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 18.647124999999992,
+        "ticks": 7.585625,
+        "loss": 34.272125
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.674374999999999,
+        "ticks": 8.41875,
+        "loss": 92.174375
+      }
+    },
+    "shifted/unavailable/primary-cheap/reservation": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 10.047125000000003,
+        "ticks": 7.585625,
+        "loss": 25.672124999999994
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/unavailable/primary-cheap/invoice": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 10.047125000000003,
+        "ticks": 7.585625,
+        "loss": 25.672124999999994
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    },
+    "shifted/unavailable/primary-cheap/shipment": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "myopic": {
+        "success": 0.1375,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.8625,
+        "model_miss": 0.0,
+        "cost": 2.21275,
+        "ticks": 1.0075,
+        "loss": 45.337750000000014
+      },
+      "deadline": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "rollout": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "posterior": {
+        "success": 0.6875,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.3125,
+        "model_miss": 0.0,
+        "cost": 10.047125000000003,
+        "ticks": 7.585625,
+        "loss": 25.672124999999994
+      },
+      "fixed-loss": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "fixed-quality": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      },
+      "idempotent-retry": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 1.2,
+        "ticks": 1.0,
+        "loss": 1.2
+      },
+      "nominal-on-shift": {
+        "success": 0.5625000000000001,
+        "duplicate": 0.4374999999999999,
+        "false_completion": 0.4374999999999999,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.5442187499999998,
+        "ticks": 8.35,
+        "loss": 91.04421875000003
+      }
+    }
+  },
+  "aggregate": {
+    "nominal": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4150124999999996,
+        "ticks": 5.644750000000001,
+        "loss": 3.4150124999999996
+      },
+      "quality_baseline_envelope": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4629291666666666,
+        "ticks": 5.884333333333334,
+        "loss": 3.4629291666666666
+      },
+      "cost_saved_fraction": 0.013837033436288948,
+      "practical_gate": false,
+      "zero_risk_scalar_cost_equivalence": true,
+      "quality_gate": true
+    },
+    "shifted": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.84375,
+        "ticks": 8.666666666666668,
+        "loss": 4.84375
+      },
+      "quality_baseline_envelope": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.975208333333334,
+        "ticks": 8.616666666666667,
+        "loss": 4.975208333333334
+      },
+      "cost_saved_fraction": 0.026422679117290016,
+      "practical_gate": false,
+      "zero_risk_scalar_cost_equivalence": true,
+      "quality_gate": true
+    }
+  },
+  "envelopes": {
+    "nominal/atomic/status-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      }
+    },
+    "nominal/atomic/status-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      }
+    },
+    "nominal/atomic/status-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "loss": 2.6074999999999995
+      }
+    },
+    "nominal/atomic/primary-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/atomic/primary-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/atomic/primary-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/lagged/status-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      }
+    },
+    "nominal/lagged/status-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      }
+    },
+    "nominal/lagged/status-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.255,
+        "ticks": 5.9,
+        "loss": 3.255
+      }
+    },
+    "nominal/lagged/primary-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/lagged/primary-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/lagged/primary-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/unavailable/status-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      }
+    },
+    "nominal/unavailable/status-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      }
+    },
+    "nominal/unavailable/status-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "loss": 5.506250000000001
+      }
+    },
+    "nominal/unavailable/primary-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/unavailable/primary-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "nominal/unavailable/primary-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.136275,
+        "ticks": 6.352,
+        "loss": 3.136275
+      }
+    },
+    "shifted/atomic/status-cheap/reservation": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      }
+    },
+    "shifted/atomic/status-cheap/invoice": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      }
+    },
+    "shifted/atomic/status-cheap/shipment": {
+      "policy": "fixed-loss",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "loss": 3.6512499999999997
+      }
+    },
+    "shifted/atomic/primary-cheap/reservation": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/atomic/primary-cheap/invoice": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/atomic/primary-cheap/shipment": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/lagged/status-cheap/reservation": {
+      "policy": "rollout",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      }
+    },
+    "shifted/lagged/status-cheap/invoice": {
+      "policy": "rollout",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      }
+    },
+    "shifted/lagged/status-cheap/shipment": {
+      "policy": "rollout",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.645000000000001,
+        "ticks": 8.325000000000001,
+        "loss": 6.645000000000001
+      }
+    },
+    "shifted/lagged/primary-cheap/reservation": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/lagged/primary-cheap/invoice": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/lagged/primary-cheap/shipment": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/unavailable/status-cheap/reservation": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      }
+    },
+    "shifted/unavailable/status-cheap/invoice": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      }
+    },
+    "shifted/unavailable/status-cheap/shipment": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "loss": 6.669999999999999
+      }
+    },
+    "shifted/unavailable/primary-cheap/reservation": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/unavailable/primary-cheap/invoice": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    },
+    "shifted/unavailable/primary-cheap/shipment": {
+      "policy": "deadline",
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.295,
+        "ticks": 9.350000000000001,
+        "loss": 4.295
+      }
+    }
+  }
+}

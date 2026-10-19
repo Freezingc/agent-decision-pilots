@@ -1,0 +1,63 @@
+{
+  "schema": "p5-identifiability-v1",
+  "started_utc": "2026-10-19T16:35:25.606168+00:00",
+  "interpretation": "post-P5 explanatory validation, controlled exhaustive histories, no new contribution claim",
+  "sequence_count": 1024,
+  "readonly_steps": 5,
+  "worlds": [
+    "A",
+    "B"
+  ],
+  "branches": [
+    "short",
+    "ambiguous"
+  ],
+  "main_episode_count": 4096,
+  "branch_weights": {
+    "A": {
+      "short": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "ambiguous": {
+        "numerator": 1,
+        "denominator": 5
+      }
+    },
+    "B": {
+      "short": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "ambiguous": {
+        "numerator": 1,
+        "denominator": 5
+      }
+    }
+  },
+  "fixed_fields": {
+    "item": "book",
+    "quantity": 2,
+    "delivery": "pickup"
+  },
+  "source_hashes": {
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/artifacts/p5/probe_identifiability.py": "26290d38afd00c470c9e6bcbffa06f1e2a99c2a77da72743e652ca40a4ce4a56",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/state_service.py": "6e29720a86dc8cb56e388a3eeb7c17a583d990018e406b280bb78d004f9659f4",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/tests/test_identifiability.py": "0068e063b19ea194319adfc385c8f634e7509370ae710b0ce40cb56cd62a3721",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/docs/p5-identifiability-protocol.md": "abd3b3298f3316d29fbcbaa21099c0fd68b99acc15942ceb7bf219f1c52eed0b"
+  },
+  "protocol_sha256": "abd3b3298f3316d29fbcbaa21099c0fd68b99acc15942ceb7bf219f1c52eed0b",
+  "normalization": "first appearance per ID namespace, preserve all non-ID fields, lists and event order; business fields never normalized",
+  "command": [
+    "/home/zhangyudong/FDU/paper/Eval/.local/eval-venv/bin/python",
+    "artifacts/p5/probe_identifiability.py",
+    "--output",
+    "artifacts/p5/identifiability-v1",
+    "--protocol",
+    "docs/p5-identifiability-protocol.md"
+  ],
+  "hard_timeout_seconds": 300,
+  "no_natural_sampling": true,
+  "gpu_used": false,
+  "paid_api_calls": 0
+}

@@ -1,0 +1,54 @@
+{
+  "run_diagnosis.py": {
+    "sha256": "b4d4f1ec5664737627f68c97f192d81171a6e116c56cd3eb77ee063e24173d9d",
+    "bytes": 15700
+  },
+  "verification.json": {
+    "sha256": "7dd183c9bb7204a165ccf0f076202da0e3a094818b08d5a4c4eb2c472b95321c",
+    "bytes": 751
+  },
+  "decision.json": {
+    "sha256": "0d08f47b4d43a36150e1ce43ffe705ce7342857db0864e14ee07b5a543f59d3d",
+    "bytes": 1705
+  },
+  "p5-protocol.md": {
+    "sha256": "26d81050bc3fed17e5790bdc46125bfe3367239c81cc8ac1268d2ff2cd97d6b6",
+    "bytes": 9419
+  },
+  "state_service.py": {
+    "sha256": "6e29720a86dc8cb56e388a3eeb7c17a583d990018e406b280bb78d004f9659f4",
+    "bytes": 19456
+  },
+  "selections-before-service.json": {
+    "sha256": "2a1ff49f5eafd68d24d1335a0dbdfb7b8eeb6372d1c087c9fa341c4eacab388e",
+    "bytes": 15850
+  },
+  "diagnosis.py": {
+    "sha256": "544212d0c75263c6a40c3bf5079e0a1276c4d68474637086f90095befc271538",
+    "bytes": 12742
+  },
+  "summary.json": {
+    "sha256": "ea8210028c21d66ad382d456382def80848cecdfa7c1aae855250733a25e2f44",
+    "bytes": 98584
+  },
+  "preplanning-seconds.json": {
+    "sha256": "3342ef8b0fb64ba4748fd80e1209d0bec7514c6155aed5fe43445359bec6a218",
+    "bytes": 664
+  },
+  "service.sqlite.gz": {
+    "sha256": "c5d95d8be5783f4aea958e5602bca18ea49d9aba772c53d8dd9a721e7930446b",
+    "bytes": 4377867
+  },
+  "frozen.json": {
+    "sha256": "aed1607f2d5ea35dacd59b8cdf4662b6359497844f11c6879c7e545ce2492924",
+    "bytes": 9393
+  },
+  "service.sqlite": {
+    "sha256": "c539e8e936749318f89a538de462853f47f9741fae0324441368da1c4b503bdf",
+    "bytes": 17600512
+  },
+  "trajectories.jsonl.gz": {
+    "sha256": "305ab559744607ff8e90ee69b4186de706ed1c060ef746629d6bbf3fcdab6473",
+    "bytes": 1905844
+  }
+}

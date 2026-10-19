@@ -1,0 +1,2150 @@
+[
+  {
+    "world": "A",
+    "branch": "short",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 2,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "989816e776ad4e90a925b3560fc5963a",
+        "operation_id": "c1968906170d4db2897e795c0ce4aa76",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "21ab604a7a804721979a4b7b4b851a90"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 6,
+      "record_count": 2,
+      "complete_count": 2,
+      "partial_count": 0,
+      "duplicate": true,
+      "business_success": false,
+      "rows": [
+        {
+          "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        },
+        {
+          "record_id": "21ab604a7a804721979a4b7b4b851a90",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "apply_original",
+          "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "publish_cache",
+          "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "publish_journal",
+          "record_id": "b109a6f79bd94ecf9551b30aea5a0a00",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "21ab604a7a804721979a4b7b4b851a90",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "21ab604a7a804721979a4b7b4b851a90",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "21ab604a7a804721979a4b7b4b851a90",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-1>"
+          }
+        }
+      ]
+    },
+    "role": "nonidempotent_retry"
+  },
+  {
+    "world": "B",
+    "branch": "short",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 2,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "78a6cb89cb004fb5990faa37ab2d8c43",
+        "operation_id": "c2010257d18c404c8dd2aabd430f28fd",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "999e3ec3c11a4ebfb95c58bb8c0bb876"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 6,
+      "record_count": 2,
+      "complete_count": 2,
+      "partial_count": 0,
+      "duplicate": true,
+      "business_success": false,
+      "rows": [
+        {
+          "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        },
+        {
+          "record_id": "999e3ec3c11a4ebfb95c58bb8c0bb876",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "apply_original",
+          "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "publish_cache",
+          "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "publish_journal",
+          "record_id": "81d51ce80abe4a2e8a9da1b62abe5093",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "999e3ec3c11a4ebfb95c58bb8c0bb876",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "999e3ec3c11a4ebfb95c58bb8c0bb876",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "999e3ec3c11a4ebfb95c58bb8c0bb876",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": [
+              {
+                "record_id": "<record-0>",
+                "fields": {
+                  "item": "book",
+                  "quantity": 2,
+                  "delivery": "pickup"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-1>"
+          }
+        }
+      ]
+    },
+    "role": "nonidempotent_retry"
+  },
+  {
+    "world": "A",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "none",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "6031baaf5fe945e0a61bde16bad02636",
+        "operation_id": "28f54db107674b1880d946ee51333f12",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "74b506d1c83b4b58838f23c9606de821"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 6,
+      "record_count": 1,
+      "complete_count": 1,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": true,
+      "rows": [
+        {
+          "record_id": "74b506d1c83b4b58838f23c9606de821",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "74b506d1c83b4b58838f23c9606de821",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "74b506d1c83b4b58838f23c9606de821",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "74b506d1c83b4b58838f23c9606de821",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": true,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-0>"
+          }
+        }
+      ]
+    },
+    "role": "nonidempotent_retry"
+  },
+  {
+    "world": "B",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "fe9b81d55249423b90fe639462de2ef9",
+        "operation_id": "89fdf3f1826642d6a223aaed5ee9a94c",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "1ebd5adcb59246e2808c9fab6cce9e1c"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 9,
+      "record_count": 2,
+      "complete_count": 2,
+      "partial_count": 0,
+      "duplicate": true,
+      "business_success": false,
+      "rows": [
+        {
+          "record_id": "1ebd5adcb59246e2808c9fab6cce9e1c",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        },
+        {
+          "record_id": "7ce5747e70bd4e38b9d47f64c0691a93",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "1ebd5adcb59246e2808c9fab6cce9e1c",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "1ebd5adcb59246e2808c9fab6cce9e1c",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "1ebd5adcb59246e2808c9fab6cce9e1c",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "apply_original",
+          "record_id": "7ce5747e70bd4e38b9d47f64c0691a93",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_cache",
+          "record_id": "7ce5747e70bd4e38b9d47f64c0691a93",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_journal",
+          "record_id": "7ce5747e70bd4e38b9d47f64c0691a93",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-0>"
+          }
+        }
+      ]
+    },
+    "role": "nonidempotent_retry"
+  },
+  {
+    "world": "A",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "none",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "bf7166429dbf4539bd149eae57ce9b2d",
+        "operation_id": "6a7716fcf7c7486db70cf4805f5d07e8",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 5,
+      "record_count": 0,
+      "complete_count": 0,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": false,
+      "rows": [],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "abstain",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        }
+      ]
+    },
+    "role": "abstain"
+  },
+  {
+    "world": "B",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "ed5b163c3a6545ce82c2fa17cafa2e83",
+        "operation_id": "d8084acabc2e44458f91a495d4a793ab",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 9,
+      "record_count": 1,
+      "complete_count": 1,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": true,
+      "rows": [
+        {
+          "record_id": "80892eecbaa54bfc9e2c40897f3dc527",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "apply_original",
+          "record_id": "80892eecbaa54bfc9e2c40897f3dc527",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_cache",
+          "record_id": "80892eecbaa54bfc9e2c40897f3dc527",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_journal",
+          "record_id": "80892eecbaa54bfc9e2c40897f3dc527",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "abstain",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        }
+      ]
+    },
+    "role": "abstain"
+  },
+  {
+    "world": "A",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "none",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "atomic",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "e0def4a6e69a4c728341a68670da1134",
+        "operation_id": "ef2a30d68adb4ae497cb76423ce3976c",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "atomic",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "journal",
+          "response": {
+            "state": "not_found"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 1,
+      "record_count": 0,
+      "complete_count": 0,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": false,
+      "rows": [],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_journal",
+          "record_id": null,
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "observation_window_end",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "atomic",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "journal",
+          "response": {
+            "state": "not_found"
+          }
+        }
+      ]
+    },
+    "role": "atomic_journal"
+  },
+  {
+    "world": "B",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "atomic",
+      "idempotent": false
+    },
+    "public": {
+      "start": {
+        "episode_id": "16b79c5764e445d0bea36d09e8e315e4",
+        "operation_id": "724c00629241455b9805aeaf713808ce",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "atomic",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "journal",
+          "response": {
+            "state": "pending"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 9,
+      "record_count": 1,
+      "complete_count": 1,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": true,
+      "rows": [
+        {
+          "record_id": "7e4a9ef4e768428694e4c858c2bc0e10",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_journal",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "apply_original",
+          "record_id": "7e4a9ef4e768428694e4c858c2bc0e10",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_journal",
+          "record_id": "7e4a9ef4e768428694e4c858c2bc0e10",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_cache",
+          "record_id": "7e4a9ef4e768428694e4c858c2bc0e10",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "observation_window_end",
+    "controller_success": false,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "atomic",
+        "idempotent": false,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "journal",
+          "response": {
+            "state": "pending"
+          }
+        }
+      ]
+    },
+    "role": "atomic_journal"
+  },
+  {
+    "world": "A",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "none",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": true
+    },
+    "public": {
+      "start": {
+        "episode_id": "dd87953a7e884d419ec57c078577e855",
+        "operation_id": "f179605f0bac430c9940a9e319465a8e",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": true,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "c2038bafb2a1418f9cf716cade1e8e94"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 6,
+      "record_count": 1,
+      "complete_count": 1,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": true,
+      "rows": [
+        {
+          "record_id": "c2038bafb2a1418f9cf716cade1e8e94",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "c2038bafb2a1418f9cf716cade1e8e94",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "c2038bafb2a1418f9cf716cade1e8e94",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "c2038bafb2a1418f9cf716cade1e8e94",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": true,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": true,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-0>"
+          }
+        }
+      ]
+    },
+    "role": "idempotent_retry"
+  },
+  {
+    "world": "B",
+    "branch": "ambiguous",
+    "config": {
+      "template": "reservation",
+      "expected_fields": {
+        "item": "book",
+        "quantity": 2,
+        "delivery": "pickup"
+      },
+      "outcome": "full",
+      "apply_delay": 9,
+      "cache_lag": 0,
+      "journal_lag": 0,
+      "journal_mode": "lagged",
+      "idempotent": true
+    },
+    "public": {
+      "start": {
+        "episode_id": "3ddddb43d2194d7a94c025eab4aabcc7",
+        "operation_id": "f4ed0e87c66e400e9122474918c1b113",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": true,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "8bb9837eeed04a048ccebef4318a4c6e"
+          }
+        }
+      ]
+    },
+    "terminal_audit": {
+      "tick": 9,
+      "record_count": 1,
+      "complete_count": 1,
+      "partial_count": 0,
+      "duplicate": false,
+      "business_success": true,
+      "rows": [
+        {
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "fields": {
+            "item": "book",
+            "quantity": 2,
+            "delivery": "pickup"
+          }
+        }
+      ],
+      "events": [
+        {
+          "tick": 0,
+          "kind": "start",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 1,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 2,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 3,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 4,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 5,
+          "kind": "action_fields",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "action_retry",
+          "record_id": null,
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "retry",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_cache",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 6,
+          "kind": "publish_journal",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "apply_original",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_cache",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        },
+        {
+          "tick": 9,
+          "kind": "publish_journal",
+          "record_id": "8bb9837eeed04a048ccebef4318a4c6e",
+          "writer_pid": 695666
+        }
+      ]
+    },
+    "controller_terminal": "accept",
+    "controller_success": true,
+    "normalized_public": {
+      "start": {
+        "episode_id": "<episode-0>",
+        "operation_id": "<operation-0>",
+        "template": "reservation",
+        "expected_fields": {
+          "item": "book",
+          "quantity": 2,
+          "delivery": "pickup"
+        },
+        "journal_mode": "lagged",
+        "idempotent": true,
+        "status": "timeout"
+      },
+      "steps": [
+        {
+          "tick": 1,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 2,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 3,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 4,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 5,
+          "action": "fields",
+          "response": {
+            "records": []
+          }
+        },
+        {
+          "tick": 6,
+          "action": "retry",
+          "response": {
+            "state": "complete",
+            "record_id": "<record-0>"
+          }
+        }
+      ]
+    },
+    "role": "idempotent_retry"
+  }
+]

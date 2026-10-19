@@ -1,0 +1,59 @@
+{
+  "continue_to_model_learning": false,
+  "global_zero_risk_cost_bound_valid": true,
+  "aggregate": {
+    "nominal": {
+      "optimal": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4150124999999996,
+        "ticks": 5.644750000000001,
+        "loss": 3.4150124999999996
+      },
+      "quality_baseline_envelope": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 3.4629291666666666,
+        "ticks": 5.884333333333334,
+        "loss": 3.4629291666666666
+      },
+      "cost_saved_fraction": 0.013837033436288948,
+      "practical_gate": false,
+      "zero_risk_scalar_cost_equivalence": true,
+      "quality_gate": true
+    },
+    "shifted": {
+      "optimal": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.84375,
+        "ticks": 8.666666666666668,
+        "loss": 4.84375
+      },
+      "quality_baseline_envelope": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "model_miss": 0.0,
+        "cost": 4.975208333333334,
+        "ticks": 8.616666666666667,
+        "loss": 4.975208333333334
+      },
+      "cost_saved_fraction": 0.026422679117290016,
+      "practical_gate": false,
+      "zero_risk_scalar_cost_equivalence": true,
+      "quality_gate": true
+    }
+  },
+  "scope": "This finite controlled service only; not a general impossibility or learned-agent claim."
+}

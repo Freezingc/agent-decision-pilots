@@ -1,0 +1,14 @@
+{
+  "nominal/atomic/status-cheap": 1.8633291008882225,
+  "nominal/atomic/primary-cheap": 1.8875626539811492,
+  "nominal/lagged/status-cheap": 1.9977342579513788,
+  "nominal/lagged/primary-cheap": 2.0222401106730103,
+  "nominal/unavailable/status-cheap": 0.5357620897702873,
+  "nominal/unavailable/primary-cheap": 0.5367835611104965,
+  "shifted/atomic/status-cheap": 2.214018120896071,
+  "shifted/atomic/primary-cheap": 2.2233086111955345,
+  "shifted/lagged/status-cheap": 2.3721736478619277,
+  "shifted/lagged/primary-cheap": 2.3553398102521896,
+  "shifted/unavailable/status-cheap": 0.6177438190206885,
+  "shifted/unavailable/primary-cheap": 0.6145212249830365
+}

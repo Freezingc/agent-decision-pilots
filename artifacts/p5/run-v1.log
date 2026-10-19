@@ -1,0 +1,49 @@
+{"stage": "preplanning", "condition": "nominal/atomic/status-cheap", "seconds": 1.8633291008882225}
+{"stage": "preplanning", "condition": "nominal/atomic/primary-cheap", "seconds": 1.8875626539811492}
+{"stage": "preplanning", "condition": "nominal/lagged/status-cheap", "seconds": 1.9977342579513788}
+{"stage": "preplanning", "condition": "nominal/lagged/primary-cheap", "seconds": 2.0222401106730103}
+{"stage": "preplanning", "condition": "nominal/unavailable/status-cheap", "seconds": 0.5357620897702873}
+{"stage": "preplanning", "condition": "nominal/unavailable/primary-cheap", "seconds": 0.5367835611104965}
+{"stage": "preplanning", "condition": "shifted/atomic/status-cheap", "seconds": 2.214018120896071}
+{"stage": "preplanning", "condition": "shifted/atomic/primary-cheap", "seconds": 2.2233086111955345}
+{"stage": "preplanning", "condition": "shifted/lagged/status-cheap", "seconds": 2.3721736478619277}
+{"stage": "preplanning", "condition": "shifted/lagged/primary-cheap", "seconds": 2.3553398102521896}
+{"stage": "preplanning", "condition": "shifted/unavailable/status-cheap", "seconds": 0.6177438190206885}
+{"stage": "preplanning", "condition": "shifted/unavailable/primary-cheap", "seconds": 0.6145212249830365}
+{"stage": "service", "condition": "nominal/atomic/status-cheap/reservation", "episodes": 200, "elapsed_s": 20.98245248105377}
+{"stage": "service", "condition": "nominal/atomic/status-cheap/invoice", "episodes": 400, "elapsed_s": 22.68631851905957}
+{"stage": "service", "condition": "nominal/atomic/status-cheap/shipment", "episodes": 600, "elapsed_s": 24.41491921711713}
+{"stage": "service", "condition": "nominal/atomic/primary-cheap/reservation", "episodes": 800, "elapsed_s": 26.449930276721716}
+{"stage": "service", "condition": "nominal/atomic/primary-cheap/invoice", "episodes": 1000, "elapsed_s": 28.49182982183993}
+{"stage": "service", "condition": "nominal/atomic/primary-cheap/shipment", "episodes": 1200, "elapsed_s": 30.541225080844015}
+{"stage": "service", "condition": "nominal/lagged/status-cheap/reservation", "episodes": 1400, "elapsed_s": 32.65063327085227}
+{"stage": "service", "condition": "nominal/lagged/status-cheap/invoice", "episodes": 1600, "elapsed_s": 34.77617702586576}
+{"stage": "service", "condition": "nominal/lagged/status-cheap/shipment", "episodes": 1800, "elapsed_s": 36.92539477208629}
+{"stage": "service", "condition": "nominal/lagged/primary-cheap/reservation", "episodes": 2000, "elapsed_s": 39.15773384086788}
+{"stage": "service", "condition": "nominal/lagged/primary-cheap/invoice", "episodes": 2200, "elapsed_s": 41.362398432102054}
+{"stage": "service", "condition": "nominal/lagged/primary-cheap/shipment", "episodes": 2400, "elapsed_s": 43.60681112902239}
+{"stage": "service", "condition": "nominal/unavailable/status-cheap/reservation", "episodes": 2600, "elapsed_s": 45.95047328202054}
+{"stage": "service", "condition": "nominal/unavailable/status-cheap/invoice", "episodes": 2800, "elapsed_s": 48.32959577906877}
+{"stage": "service", "condition": "nominal/unavailable/status-cheap/shipment", "episodes": 3000, "elapsed_s": 50.713829945772886}
+{"stage": "service", "condition": "nominal/unavailable/primary-cheap/reservation", "episodes": 3200, "elapsed_s": 52.9977890541777}
+{"stage": "service", "condition": "nominal/unavailable/primary-cheap/invoice", "episodes": 3400, "elapsed_s": 55.29181243991479}
+{"stage": "service", "condition": "nominal/unavailable/primary-cheap/shipment", "episodes": 3600, "elapsed_s": 57.61642178799957}
+{"stage": "service", "condition": "shifted/atomic/status-cheap/reservation", "episodes": 3825, "elapsed_s": 60.42332110879943}
+{"stage": "service", "condition": "shifted/atomic/status-cheap/invoice", "episodes": 4050, "elapsed_s": 63.28587298793718}
+{"stage": "service", "condition": "shifted/atomic/status-cheap/shipment", "episodes": 4275, "elapsed_s": 66.16433241497725}
+{"stage": "service", "condition": "shifted/atomic/primary-cheap/reservation", "episodes": 4500, "elapsed_s": 69.74616977898404}
+{"stage": "service", "condition": "shifted/atomic/primary-cheap/invoice", "episodes": 4725, "elapsed_s": 73.37204953609034}
+{"stage": "service", "condition": "shifted/atomic/primary-cheap/shipment", "episodes": 4950, "elapsed_s": 76.9851466207765}
+{"stage": "service", "condition": "shifted/lagged/status-cheap/reservation", "episodes": 5175, "elapsed_s": 80.5050447578542}
+{"stage": "service", "condition": "shifted/lagged/status-cheap/invoice", "episodes": 5400, "elapsed_s": 84.07752040587366}
+{"stage": "service", "condition": "shifted/lagged/status-cheap/shipment", "episodes": 5625, "elapsed_s": 87.66348548512906}
+{"stage": "service", "condition": "shifted/lagged/primary-cheap/reservation", "episodes": 5850, "elapsed_s": 91.47884441213682}
+{"stage": "service", "condition": "shifted/lagged/primary-cheap/invoice", "episodes": 6075, "elapsed_s": 95.2525625647977}
+{"stage": "service", "condition": "shifted/lagged/primary-cheap/shipment", "episodes": 6300, "elapsed_s": 99.14768448611721}
+{"stage": "service", "condition": "shifted/unavailable/status-cheap/reservation", "episodes": 6525, "elapsed_s": 103.22749267984182}
+{"stage": "service", "condition": "shifted/unavailable/status-cheap/invoice", "episodes": 6750, "elapsed_s": 107.13404550077394}
+{"stage": "service", "condition": "shifted/unavailable/status-cheap/shipment", "episodes": 6975, "elapsed_s": 111.02882310375571}
+{"stage": "service", "condition": "shifted/unavailable/primary-cheap/reservation", "episodes": 7200, "elapsed_s": 115.0171632450074}
+{"stage": "service", "condition": "shifted/unavailable/primary-cheap/invoice", "episodes": 7425, "elapsed_s": 118.96867991378531}
+{"stage": "service", "condition": "shifted/unavailable/primary-cheap/shipment", "episodes": 7650, "elapsed_s": 122.95072111906484}
+{"completed": true, "output": "artifacts/p5/run-v1", "verification": {"episodes": 7650, "model_service_disagreements": [], "remaining_events": 0, "db_table_counts": {"episodes": 7650, "records": 7737, "cache_entries": 7617, "operation_journal": 5085, "scheduled_events": 23610, "event_log": 81660}, "service_writer_pids": [680942], "positive_probability_atoms_per_condition": 25, "exhaustive_not_iid_samples": true, "api_requests": 0, "llm_requests": 0, "http_action_requests": 41484, "elapsed_s": 122.97587045608088, "http_request_ms_p50": 1.3213909696787596, "http_request_ms_p95": 1.8027378246188164, "online_planning_ms_p50": 0.01602945849299431, "online_planning_ms_p95": 0.14995411038398743, "ended_at_utc": "2026-10-19T16:30:21.779584+00:00"}, "aggregate": {"nominal": {"optimal": {"success": 0.9999999999999998, "duplicate": 0.0, "false_completion": 0.0, "abstention": 0.0, "model_miss": 0.0, "cost": 3.4150124999999996, "ticks": 5.644750000000001, "loss": 3.4150124999999996}, "quality_baseline_envelope": {"success": 0.9999999999999998, "duplicate": 0.0, "false_completion": 0.0, "abstention": 0.0, "model_miss": 0.0, "cost": 3.4629291666666666, "ticks": 5.884333333333334, "loss": 3.4629291666666666}, "cost_saved_fraction": 0.013837033436288948, "practical_gate": false, "zero_risk_scalar_cost_equivalence": true, "quality_gate": true}, "shifted": {"optimal": {"success": 1.0, "duplicate": 0.0, "false_completion": 0.0, "abstention": 0.0, "model_miss": 0.0, "cost": 4.84375, "ticks": 8.666666666666668, "loss": 4.84375}, "quality_baseline_envelope": {"success": 1.0, "duplicate": 0.0, "false_completion": 0.0, "abstention": 0.0, "model_miss": 0.0, "cost": 4.975208333333334, "ticks": 8.616666666666667, "loss": 4.975208333333334}, "cost_saved_fraction": 0.026422679117290016, "practical_gate": false, "zero_risk_scalar_cost_equivalence": true, "quality_gate": true}}}

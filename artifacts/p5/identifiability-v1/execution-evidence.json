@@ -1,0 +1,28 @@
+{
+  "red": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /home/zhangyudong/FDU/paper/Eval/.local/eval-venv/bin/python -B -m pytest tests/test_identifiability.py -q",
+    "observed_before_probe_implementation": true,
+    "exit_code": 1,
+    "outcome": "5 failed in 0.03s",
+    "cause": "probe missing; ACTIONS is None assertions; actual command output preserved in task tool transcript"
+  },
+  "green": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /home/zhangyudong/FDU/paper/Eval/.local/eval-venv/bin/python -B -m pytest tests/test_identifiability.py -q",
+    "exit_code": 0,
+    "outcome": "5 passed in 0.03s"
+  },
+  "combined_regression_output": "tests-green.txt",
+  "formal_run": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src timeout --signal=TERM --kill-after=5s 300s /home/zhangyudong/FDU/paper/Eval/.local/eval-venv/bin/python -B artifacts/p5/probe_identifiability.py --output artifacts/p5/identifiability-v1 --protocol docs/p5-identifiability-protocol.md > artifacts/p5/identifiability-v1.log 2>&1",
+    "exit_code": 0,
+    "hard_timeout_seconds": 300,
+    "automatic_retries": 0,
+    "started_utc": "2026-10-19T16:35:25.606168+00:00",
+    "ended_utc": "2026-10-19T16:36:10.560571+00:00",
+    "elapsed_seconds": 44.95439646905288
+  },
+  "stdout_stderr_log": {
+    "path": "artifacts/p5/identifiability-v1.log",
+    "sha256": "b3c375431b30542a9e81659c33eb69507ba6b36332c2655e87aff4e3dd897895"
+  }
+}

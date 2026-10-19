@@ -1,0 +1,27 @@
+{
+  "episodes": 7650,
+  "model_service_disagreements": [],
+  "remaining_events": 0,
+  "db_table_counts": {
+    "episodes": 7650,
+    "records": 7737,
+    "cache_entries": 7617,
+    "operation_journal": 5085,
+    "scheduled_events": 23610,
+    "event_log": 81660
+  },
+  "service_writer_pids": [
+    680942
+  ],
+  "positive_probability_atoms_per_condition": 25,
+  "exhaustive_not_iid_samples": true,
+  "api_requests": 0,
+  "llm_requests": 0,
+  "http_action_requests": 41484,
+  "elapsed_s": 122.97587045608088,
+  "http_request_ms_p50": 1.3213909696787596,
+  "http_request_ms_p95": 1.8027378246188164,
+  "online_planning_ms_p50": 0.01602945849299431,
+  "online_planning_ms_p95": 0.14995411038398743,
+  "ended_at_utc": "2026-10-19T16:30:21.779584+00:00"
+}

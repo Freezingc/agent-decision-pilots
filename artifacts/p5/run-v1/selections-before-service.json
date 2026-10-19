@@ -1,0 +1,686 @@
+{
+  "nominal/atomic/status-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "journal"
+        ],
+        "initial_wait": 1,
+        "interval": 4,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 2.6074999999999995,
+        "loss": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "max_ticks": 7
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "journal"
+        ],
+        "initial_wait": 1,
+        "interval": 4,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 2.6074999999999995,
+        "loss": 2.6074999999999995,
+        "ticks": 3.0999999999999996,
+        "max_ticks": 7
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 2.57,
+      "loss": 2.57,
+      "ticks": 2.9124999999999996,
+      "max_ticks": 6
+    },
+    "exact_root_value": 2.5700000000000003
+  },
+  "nominal/atomic/primary-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 3.0737749999999995,
+      "loss": 3.0737749999999995,
+      "ticks": 6.039500000000001,
+      "max_ticks": 9
+    },
+    "exact_root_value": 3.073775000000001
+  },
+  "nominal/lagged/status-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "journal"
+        ],
+        "initial_wait": 4,
+        "interval": 2,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.255,
+        "loss": 3.255,
+        "ticks": 5.9,
+        "max_ticks": 8
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "journal"
+        ],
+        "initial_wait": 4,
+        "interval": 2,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.255,
+        "loss": 3.255,
+        "ticks": 5.9,
+        "max_ticks": 8
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 3.255,
+      "loss": 3.255,
+      "ticks": 5.9,
+      "max_ticks": 8
+    },
+    "exact_root_value": 3.255000000000001
+  },
+  "nominal/lagged/primary-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 3.0737749999999995,
+      "loss": 3.0737749999999995,
+      "ticks": 6.039500000000001,
+      "max_ticks": 9
+    },
+    "exact_root_value": 3.073775000000001
+  },
+  "nominal/unavailable/status-cheap": {
+    "count": 240,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 4,
+        "interval": 4,
+        "exponential": false,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 5.506250000000001,
+        "loss": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 4,
+        "interval": 4,
+        "exponential": false,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 5.506250000000001,
+        "loss": 5.506250000000001,
+        "ticks": 7.250000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 5.4437500000000005,
+      "loss": 5.4437500000000005,
+      "ticks": 6.937500000000001,
+      "max_ticks": 9
+    },
+    "exact_root_value": 5.443750000000001
+  },
+  "nominal/unavailable/primary-cheap": {
+    "count": 240,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": true
+      },
+      "metrics": {
+        "success": 0.9999999999999998,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.136275,
+        "loss": 3.136275,
+        "ticks": 6.352,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 0.9999999999999998,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 3.0737749999999995,
+      "loss": 3.0737749999999995,
+      "ticks": 6.039500000000001,
+      "max_ticks": 9
+    },
+    "exact_root_value": 3.073775000000001
+  },
+  "shifted/atomic/status-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "journal",
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.6512499999999997,
+        "loss": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "journal",
+          "cache"
+        ],
+        "initial_wait": 2,
+        "interval": 2,
+        "exponential": true,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 3.6512499999999997,
+        "loss": 3.6512499999999997,
+        "ticks": 5.9750000000000005,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 3.432499999999999,
+      "loss": 3.432499999999999,
+      "ticks": 5.9750000000000005,
+      "max_ticks": 10
+    },
+    "exact_root_value": 3.432500000000002
+  },
+  "shifted/atomic/primary-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 4.295,
+      "loss": 4.295,
+      "ticks": 9.350000000000001,
+      "max_ticks": 10
+    },
+    "exact_root_value": 4.295000000000002
+  },
+  "shifted/lagged/status-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 6.669999999999999,
+        "loss": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 6.669999999999999,
+        "loss": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 6.075,
+      "loss": 6.075,
+      "ticks": 8.625,
+      "max_ticks": 10
+    },
+    "exact_root_value": 6.075000000000001
+  },
+  "shifted/lagged/primary-cheap": {
+    "count": 900,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 4.295,
+      "loss": 4.295,
+      "ticks": 9.350000000000001,
+      "max_ticks": 10
+    },
+    "exact_root_value": 4.295000000000002
+  },
+  "shifted/unavailable/status-cheap": {
+    "count": 240,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 6.669999999999999,
+        "loss": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 6.669999999999999,
+        "loss": 6.669999999999999,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 6.669999999999999,
+      "loss": 6.669999999999999,
+      "ticks": 9.350000000000001,
+      "max_ticks": 10
+    },
+    "exact_root_value": 6.670000000000002
+  },
+  "shifted/unavailable/primary-cheap": {
+    "count": 240,
+    "loss_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "quality_selected": {
+      "rule": {
+        "order": [
+          "fields",
+          "cache"
+        ],
+        "initial_wait": 8,
+        "interval": 1,
+        "exponential": false,
+        "repair_on_presence": false
+      },
+      "metrics": {
+        "success": 1.0,
+        "duplicate": 0.0,
+        "false_completion": 0.0,
+        "abstention": 0.0,
+        "cost": 4.295,
+        "loss": 4.295,
+        "ticks": 9.350000000000001,
+        "max_ticks": 10
+      }
+    },
+    "optimal": {
+      "success": 1.0,
+      "duplicate": 0.0,
+      "false_completion": 0.0,
+      "abstention": 0.0,
+      "cost": 4.295,
+      "loss": 4.295,
+      "ticks": 9.350000000000001,
+      "max_ticks": 10
+    },
+    "exact_root_value": 4.295000000000002
+  }
+}

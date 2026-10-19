@@ -1,0 +1,9 @@
+{"event": "enumeration_progress", "sequences": 128, "episodes": 512, "elapsed_seconds": 5.081990351900458}
+{"event": "enumeration_progress", "sequences": 256, "episodes": 1024, "elapsed_seconds": 10.240246613044292}
+{"event": "enumeration_progress", "sequences": 384, "episodes": 1536, "elapsed_seconds": 15.541939017828554}
+{"event": "enumeration_progress", "sequences": 512, "episodes": 2048, "elapsed_seconds": 21.08745726617053}
+{"event": "enumeration_progress", "sequences": 640, "episodes": 2560, "elapsed_seconds": 26.716932505834848}
+{"event": "enumeration_progress", "sequences": 768, "episodes": 3072, "elapsed_seconds": 32.510341776069254}
+{"event": "enumeration_progress", "sequences": 896, "episodes": 3584, "elapsed_seconds": 38.486675270833075}
+{"event": "enumeration_progress", "sequences": 1024, "episodes": 4096, "elapsed_seconds": 44.73860211484134}
+{"event": "completed", "status": "completed", "episodes": 4106, "comparisons": 2048, "checks": {"all_2048_main_pairs_equal": true, "main_4096_actual_episodes": true, "ambiguous_retry_A_one_B_two": true, "short_retry_both_duplicate": true, "abstain_controller_success_false": true, "abstain_final_worlds_differ": true, "atomic_journal_breaks_equivalence": true, "idempotent_retry_both_one_complete": true}, "http": {"requests": 28740, "failed_requests": 0, "total_measured_ms": 43918.04568899981, "by_endpoint": {"action": {"count": 20528, "total_ms": 27895.65358699995, "mean_ms": 1.358907520800855, "max_ms": 5.663305}, "audit": {"count": 4106, "total_ms": 9528.093962999988, "mean_ms": 2.3205294600584483, "max_ms": 6.092412}, "start_episode": {"count": 4106, "total_ms": 6494.298138999992, "mean_ms": 1.581660530686798, "max_ms": 5.57554}}, "scope": "client start_episode/action/audit wall time including HTTP and SQLite; excludes startup/close; not production latency"}, "elapsed_seconds": 44.95439646905288}

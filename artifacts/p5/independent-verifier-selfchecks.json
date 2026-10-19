@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "核验器内存中的局部行为自检，不是额外服务实验或统计样本。",
+  "checks": [
+    {
+      "name": "nonidempotent_future_original_counted",
+      "passed": true
+    },
+    {
+      "name": "idempotent_future_partial_preserves_full",
+      "passed": true
+    },
+    {
+      "name": "audit_rejects_three_in_memory_corruptions",
+      "passed": true
+    },
+    {
+      "name": "misspecified_positive_likelihood_can_authorize_unsafe_retry",
+      "passed": true
+    }
+  ],
+  "verifier_sha256": "af858771006de3e1ab484489dd8294b5ddcf7130b3effdb6f4a7485fb66b6412"
+}

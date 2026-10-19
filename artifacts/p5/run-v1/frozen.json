@@ -1,0 +1,407 @@
+{
+  "frozen_at_utc": "2026-10-19T16:28:18.780087+00:00",
+  "python": "3.11.4",
+  "protocol": "/home/zhangyudong/FDU/paper/agent-decision-pilots/docs/p5-protocol.md",
+  "horizon": 10,
+  "time_cost": 0.2,
+  "abstain_loss": 50.0,
+  "duplicate_loss": 200.0,
+  "costs": {
+    "status-cheap": {
+      "cache": 0.5,
+      "journal": 1.0,
+      "fields": 4.0,
+      "wait": 0.0,
+      "retry": 1.0,
+      "repair": 4.0
+    },
+    "primary-cheap": {
+      "cache": 0.25,
+      "journal": 3.0,
+      "fields": 2.0,
+      "wait": 0.0,
+      "retry": 1.0,
+      "repair": 1.5
+    }
+  },
+  "templates": {
+    "reservation": {
+      "guest": "pilot-user",
+      "date": "2030-01-12",
+      "room": "A12"
+    },
+    "invoice": {
+      "customer": "pilot-customer",
+      "amount_cents": 2500,
+      "currency": "CNY"
+    },
+    "shipment": {
+      "recipient": "pilot-user",
+      "address": "test-address",
+      "parcel_count": 2
+    }
+  },
+  "regimes": {
+    "nominal": [
+      {
+        "outcome": "none",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.2
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.078
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.052000000000000005
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.11699999999999999
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.07800000000000001
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 2,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.054599999999999996
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 2,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.0364
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 2,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.08189999999999999
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 2,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.054599999999999996
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 5,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.023400000000000004
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 5,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.015600000000000003
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 5,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.0351
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 5,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.0234
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.0036
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.0024000000000000002
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.005399999999999999
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.0036
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 2,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.010799999999999999
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 2,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.0072
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 2,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.0162
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 2,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.0108
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 5,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.021599999999999998
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 5,
+        "cache_lag": 0,
+        "journal_lag": 2,
+        "weight": 0.0144
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 5,
+        "cache_lag": 3,
+        "journal_lag": 0,
+        "weight": 0.0324
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 5,
+        "cache_lag": 3,
+        "journal_lag": 2,
+        "weight": 0.0216
+      }
+    ],
+    "shifted": [
+      {
+        "outcome": "none",
+        "apply_delay": 0,
+        "cache_lag": 0,
+        "journal_lag": 0,
+        "weight": 0.2
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.00975
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.02275
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.029249999999999998
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 0,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.06824999999999999
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 3,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.014624999999999999
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 3,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.034124999999999996
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 3,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.043875
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 3,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.102375
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 9,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.024375
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 9,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.056874999999999995
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 9,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.07312500000000001
+      },
+      {
+        "outcome": "full",
+        "apply_delay": 9,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.170625
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.0005625
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.0013124999999999999
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.0016875
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 0,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.0039375
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 3,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.00225
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 3,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.0052499999999999995
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 3,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.00675
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 3,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.01575
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 9,
+        "cache_lag": 1,
+        "journal_lag": 0,
+        "weight": 0.008437499999999999
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 9,
+        "cache_lag": 1,
+        "journal_lag": 4,
+        "weight": 0.019687499999999997
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 9,
+        "cache_lag": 5,
+        "journal_lag": 0,
+        "weight": 0.025312499999999998
+      },
+      {
+        "outcome": "partial",
+        "apply_delay": 9,
+        "cache_lag": 5,
+        "journal_lag": 4,
+        "weight": 0.05906249999999999
+      }
+    ]
+  },
+  "sources": {
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/docs/p5-protocol.md": "26d81050bc3fed17e5790bdc46125bfe3367239c81cc8ac1268d2ff2cd97d6b6",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/run_diagnosis.py": "b4d4f1ec5664737627f68c97f192d81171a6e116c56cd3eb77ee063e24173d9d",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/diagnosis.py": "544212d0c75263c6a40c3bf5079e0a1276c4d68474637086f90095befc271538",
+    "/home/zhangyudong/FDU/paper/agent-decision-pilots/src/agent_pilots/state_service.py": "6e29720a86dc8cb56e388a3eeb7c17a583d990018e406b280bb78d004f9659f4"
+  },
+  "measurement": "exhaustive weighted controlled HTTP/SQLite cases; zero LLM/API requests"
+}
